@@ -2,3 +2,51 @@
 @import "viewports/_viewports.scss";
 // endbower
 
+$HEADER_HEIGHT: 50px;
+$LAYOUT_MAX_WIDTH: 1024px;
+$LAYOUT_PADDING: 20px;
+
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+
+    nav {
+        a {
+            display: block;
+            padding: 10px $LAYOUT_PADDING;
+            text-decoration: none;
+            color: white;
+
+            &:first-child {
+                color: transparent;
+                height: 100px;
+                background-image: image-url('aikumo-logo.png');
+                background-size: auto 80px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+main {
+    overflow: hidden; // to disable margin bleed
+    padding: $LAYOUT_PADDING;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
