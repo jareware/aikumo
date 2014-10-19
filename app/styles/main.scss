@@ -8,10 +8,10 @@ $VIEWPORTS_CONFIG:
 @import "viewports/_viewports.scss";
 // endbower
 
-$HEADER_HEIGHT: 50px;
 $LAYOUT_MAX_WIDTH: 1024px;
 $LAYOUT_PADDING: 20px;
 
 @import "layout";
 @import "header";
+@import "sec-home";
 @import "footer";

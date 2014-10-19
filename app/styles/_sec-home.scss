@@ -1,0 +1,18 @@
+section#home {
+
+    background: red;
+
+    text-align: center;
+    padding: 100px 0; // so there's some spacing in "stacked" layout, too
+    position: relative;
+
+    @include viewports(above stacked) {
+        height: 500px; // for browsers that don't understand "vh" units
+        height: 100vh;
+
+        h1 {
+            margin-top: 200px; // for browsers that don't understand "vh" units
+            margin-top: 35vh;
+        }
+    }
+}

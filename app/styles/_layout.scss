@@ -10,13 +10,12 @@ html, body {
 }
 
 main {
-    overflow: hidden; // to disable margin bleed
     padding: $LAYOUT_PADDING;
     width: 100%;
     max-width: $LAYOUT_MAX_WIDTH;
     margin: 0 auto;
+}
 
-    @include viewports(above stacked) { // compensate for the static header
-        margin-top: $HEADER_HEIGHT;
-    }
+body > * {
+    overflow: hidden; // to disable margin bleed
 }

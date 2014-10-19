@@ -1,12 +1,13 @@
 header {
     background: black;
+    overflow: visible; // in case the logo wants out of the header
+    z-index: 1;
 
     @include viewports(above stacked) { // set up a static header
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        height: $HEADER_HEIGHT;
     }
 
     nav {
