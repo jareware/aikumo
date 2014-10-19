@@ -1,5 +1,6 @@
 header {
-    background: black;
+    background: #F2F2F2;
+    //border-bottom: 8px solid black;
     overflow: visible; // in case the logo wants out of the header
     z-index: 1;
 
@@ -15,14 +16,17 @@ header {
         max-width: $LAYOUT_MAX_WIDTH;
         margin: 0 auto;
         text-align: right; // in "above stacked", the nav-items should pack to the right
-        position: relative;
 
         a {
             display: block;
-            padding: 10px $LAYOUT_PADDING;
+            padding: 63px $LAYOUT_PADDING 20px $LAYOUT_PADDING;
             text-decoration: none;
             text-align: center;
-            color: white;
+            color: #555;
+
+            &:hover {
+                color: #777;
+            }
 
             @include viewports(above stacked) {
                 display: inline-block; // switch to inline-block to pack links to the right
@@ -32,16 +36,16 @@ header {
                 color: transparent;
                 height: 100px;
                 background-image: image-url('aikumo-logo.png');
-                background-size: auto 80px;
+                background-size: auto 120px;
                 background-repeat: no-repeat;
                 background-position: center;
 
                 @include viewports(above stacked) {
                     position: absolute;
-                    left: $LAYOUT_PADDING;
-                    top: 0;
-                    width: 170px;
-                    height: 80px;
+                    left: 30px;
+                    top: 30px;
+                    width: 260px;
+                    height: 120px;
                 }
             }
         }

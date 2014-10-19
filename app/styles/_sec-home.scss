@@ -1,10 +1,14 @@
 section#home {
 
-    background: red;
-
-    text-align: center;
+    background: #F2F2F2;
     padding: 100px 0; // so there's some spacing in "stacked" layout, too
     position: relative;
+
+    > div {
+        width: 87vw;
+        text-align: right;
+        margin: 0 auto;
+    }
 
     @include viewports(above stacked) {
         height: 500px; // for browsers that don't understand "vh" units
@@ -12,7 +16,32 @@ section#home {
 
         h1 {
             margin-top: 200px; // for browsers that don't understand "vh" units
-            margin-top: 35vh;
+            margin-top: 12vh;
+            margin-bottom: 0;
+            font-size: 20vw;
+            line-height: 18vw;
+            font-weight: 100;
+            text-transform: uppercase;
+            letter-spacing: -2vw;
+        }
+
+        p {
+            color: #369AB3;
+            font-size: 5vw;
+            margin-top: 4vh;
+            margin-bottom: 16vh;
+            font-weight: 100;
+        }
+
+        a { // TODO: CENTER THIS
+            text-align: center;
+            font-size: 2vw;
+            text-transform: uppercase;
+            color: #666;
+
+            &:visited {
+                color: #666;
+            }
         }
     }
 }

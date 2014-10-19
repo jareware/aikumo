@@ -19,3 +19,13 @@ main {
 body > * {
     overflow: hidden; // to disable margin bleed
 }
+
+.section {
+    height: 120vh;
+    padding-top: 15%;
+
+    h2 {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+}

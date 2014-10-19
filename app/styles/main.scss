@@ -8,10 +8,15 @@ $VIEWPORTS_CONFIG:
 @import "viewports/_viewports.scss";
 // endbower
 
-$LAYOUT_MAX_WIDTH: 1024px;
+$LAYOUT_MAX_WIDTH: 1300px;
 $LAYOUT_PADDING: 20px;
 
+// Colors
+$logoBlue: #369AB3;
+
 @import "layout";
+@import "common";
 @import "header";
 @import "sec-home";
+@import "sec-about";
 @import "footer";
