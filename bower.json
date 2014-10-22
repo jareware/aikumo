@@ -2,6 +2,7 @@
   "name": "aikumo-web",
   "private": true,
   "dependencies": {
-    "viewports": "0.6.3"
+    "viewports": "0.6.3",
+    "fontawesome": "4.2.0"
   }
 }

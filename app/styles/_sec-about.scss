@@ -6,6 +6,7 @@ section#about {
 
     @include viewports(above stacked) {
 
+        // Implement the grid layout:
         section {
             width: (100% / 3);
             float: left;
