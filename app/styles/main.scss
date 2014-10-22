@@ -11,6 +11,15 @@ $VIEWPORTS_CONFIG:
 $LAYOUT_MAX_WIDTH: 1024px;
 $LAYOUT_PADDING: 20px;
 
+@mixin standard-centered-section {
+    padding-left: $LAYOUT_PADDING;
+    padding-right: $LAYOUT_PADDING;
+    width: 100%;
+    max-width: $LAYOUT_MAX_WIDTH;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @import "layout";
 @import "header";
 @import "sec-home";

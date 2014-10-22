@@ -2,7 +2,7 @@ section#about {
 
     $gridPadding: $LAYOUT_PADDING * 2;
 
-    overflow: hidden; // to clear floats
+    @include standard-centered-section();
 
     @include viewports(above stacked) {
 

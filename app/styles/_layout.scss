@@ -9,13 +9,6 @@ html, body {
     padding: 0;
 }
 
-main {
-    padding: 0 $LAYOUT_PADDING;
-    width: 100%;
-    max-width: $LAYOUT_MAX_WIDTH;
-    margin: 0 auto;
-}
-
 body > * {
     overflow: hidden; // to disable margin bleed
 }
