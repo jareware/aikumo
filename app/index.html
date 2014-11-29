@@ -12,6 +12,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -22,11 +23,11 @@
 
     <header>
         <nav>
-            <a href="#home">Aikumo</a>
-            <a href="#about">Luomme tietoon merkitystä</a>
-            <a href="#services">Sovellukset ja palvelut</a>
-            <a href="#technology">Teknologia</a>
-            <a href="#contact">Ota yhteyttä</a>
+            <a data-scroll href="#home">Aikumo</a>
+            <a data-scroll href="#about">Luomme tietoon merkitystä</a>
+            <a data-scroll href="#services">Sovellukset ja palvelut</a>
+            <a data-scroll href="#technology">Teknologia</a>
+            <a data-scroll href="#contact">Ota yhteyttä</a>
         </nav>
     </header>
 
@@ -34,20 +35,20 @@
         <div>
             <h1>Aikumo</h1>
             <p>Making Meaning</p>
-            <a href="#about">Lue lisää</a>
+            <a data-scroll href="#about">Lue lisää</a>
         </div>
     </section>
 
-    <main>
-
-        <section id="about" class="section">
-            <h2>Luomme tietoon merkitystä</h2>
-            <p>
-                Maailma on täynnä dataa. Me luomme siihen merkitystä. Meidän liiketoimintamme tarkoitus on parantaa
-                asiakkaidemme liiketoiminnan tehokkuutta. Aikumo analysoi tietoa älykkäillä, itseoppivilla ohjelmistoilla
-                monien teollisuuden ja liiketoiminnan prosessien tehostamiseksi. Ainutlaatuinen analysointiratkaisumme
-                skaalautuu millaisiin tahansa tietomääriin.
-            </p>
+    <section id="about" class="section">
+        <h2>Luomme tietoon merkitystä</h2>
+        <p>
+            Maailma on täynnä dataa. Me luomme siihen merkitystä. Meidän liiketoimintamme tarkoitus on parantaa
+            asiakkaidemme liiketoiminnan tehokkuutta. Aikumo analysoi tietoa älykkäillä, itseoppivilla ohjelmistoilla
+            monien teollisuuden ja liiketoiminnan prosessien tehostamiseksi. Ainutlaatuinen analysointiratkaisumme
+            skaalautuu millaisiin tahansa tietomääriin.
+        </p>
+        <section>
+            <i class="fa fa-angellist"></i>
             <h3>Lupauksemme</h3>
             <p>
                 Jos yrityksenne tietomassoissa on informaatiota, me löydämme sen! Riippumatta siitä, miten
@@ -60,6 +61,9 @@
                 tapahtumaan seuraavaksi ja mikä on paras tapa toimia. Tarkoittaen merkittäviä säästöjä, vähemmin
                 yllättäviä tuotantokatkoja ja parempaa kannattavuutta.
             </p>
+        </section>
+        <section>
+            <i class="fa fa-angellist"></i>
             <h3>Nopeasti ja tehokkaasti</h3>
             <p>
                 Meidän liiketoimintamme ydin on asiakkaidemme liiketoimintaprosessien parantaminen ja paremman
@@ -68,6 +72,9 @@
                 siinä olevat korrelaatiot. Tuotteemme ja palvelumme ovat erittäin vahvasti itseoppivia, mikä mahdollistaa
                 tavattoman nopean toiminnan ja tulosten saamisen.
             </p>
+        </section>
+        <section>
+            <i class="fa fa-angellist"></i>
             <h3>Yksi-kaksi-kolme</h3>
             <ol>
                 <li>Ensin suoritamme testiajon asiakkaan meille toimittamilla tiedoilla.
@@ -77,91 +84,90 @@
                     jälkeen on hyötykäytön aika!
             </ol>
         </section>
+    </section>
 
-        <section id="services" class="section">
-            <h2>Sovellukset ja palvelut</h2>
-            <p>
-                Meillä on kolmella toimialalla jo useita sovelluksia ja palveluita, jotka on verifioitu ja testattu yhdessä
-                asiakkaidemme kanssa. Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a
-                Service, AaaS).
-            </p>
-            <h3>AI-Energy&trade; - Energiantuotannon ja energiamarkkinoiden käyttöön</h3>
-            <p>
-                Kuinka paljon energiaa verkossa kuluu ja miltä koko energiamarkkina samanaikaisesti näyttää? Ennuste
-                kertoo optimaaliset markkinaoperaatiot kulujen minimoimiseksi ja tuloksen maksimoimiseksi.
-            </p>
-            <ul>
-                <li>Energiankäytön koko ketjun hallinta tuotannosta käyttäjään vaatii parannuksia tuotannon ja
-                    kulutuksen dynamiikan lisääntyessä.
-                <li>Energiayhtiöiden täytyy tietää yhä tarkemmin, kuinka paljon energiaa niiden täytyy tuottaa sekä
-                    ostaa markkinoilta omien asiakkaidensa käyttöön ja millainen toiminta markkinoilla tuottaa
-                    parhaan tuloksen.
-                <li>Aikumon palvelu oppii markkinan käyttäytymisen ja tuottaa luotettavat ennusteet
-            </ul>
-            <!-- TODO: energy-figure -->
-            <h3>AI-Uptime&trade; - Ennaltaehkäisevään toimintaan ja huoltoon</h3>
-            <p>
-                Mittaustiedot paljastavat miten komponentti, prosessi tai tehdas tulee käyttäytymään tulevaisuudessa.
-                Aikumon palveluiden avulla voit tietää, mitä seuraavaksi tapahtuu.
-            </p>
-            <ul>
-                <li>Parannamme tuotannon (jalostuslaitos, voimalaitos, prosessin laite) käytettävyyttä vähentämällä
-                    yllättäviä vikoja ja tuotannon pysähdyksiä.
-                <li>Auttaa oikeaan ja oikea-aikaiseen ylläpitoon ja huoltotoimenpiteisiin todellisen tarpeen mukaan.
-                <li>Aikumon palvelu oppii prosessin käytöksen, tunnistaa komponenttien eliniän ja mallintaa
-                    kulumisen ennakoivaa huoltoa varten.
-            </ul>
-            <!-- TODO: uptime-figure -->
-            <h3>AI-Finance&trade; - Liiketoiminnan seuraamiseen ja ennustamiseen</h3>
-            <p>
-                Miten myynti edistyy? Millaiset ovat erilaisten myynnin toimien ja kamppanjoiden tulokset sekä tehokkuus?
-            </p>
-            <ul>
-                <li>Aikumon tuotteet oppivat myyntiprosessin dynamiikan, markkinoiden käyttymisen sekä
-                    asiakassuhteet.
-                <li>Tee tarkempia liikevaihdon ennusteita ja hanki lisää ymmärrystä myynnin kehittämiseen.
-            </ul>
-            <!-- TODO: finance-figure -->
-        </section>
+    <section id="services" class="section">
+        <h2>Sovellukset ja palvelut</h2>
+        <p>
+            Meillä on kolmella toimialalla jo useita sovelluksia ja palveluita, jotka on verifioitu ja testattu yhdessä
+            asiakkaidemme kanssa. Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a
+            Service, AaaS).
+        </p>
+        <h3>AI-Energy&trade; - Energiantuotannon ja energiamarkkinoiden käyttöön</h3>
+        <p>
+            Kuinka paljon energiaa verkossa kuluu ja miltä koko energiamarkkina samanaikaisesti näyttää? Ennuste
+            kertoo optimaaliset markkinaoperaatiot kulujen minimoimiseksi ja tuloksen maksimoimiseksi.
+        </p>
+        <ul>
+            <li>Energiankäytön koko ketjun hallinta tuotannosta käyttäjään vaatii parannuksia tuotannon ja
+                kulutuksen dynamiikan lisääntyessä.
+            <li>Energiayhtiöiden täytyy tietää yhä tarkemmin, kuinka paljon energiaa niiden täytyy tuottaa sekä
+                ostaa markkinoilta omien asiakkaidensa käyttöön ja millainen toiminta markkinoilla tuottaa
+                parhaan tuloksen.
+            <li>Aikumon palvelu oppii markkinan käyttäytymisen ja tuottaa luotettavat ennusteet
+        </ul>
+        <!-- TODO: energy-figure -->
+        <h3>AI-Uptime&trade; - Ennaltaehkäisevään toimintaan ja huoltoon</h3>
+        <p>
+            Mittaustiedot paljastavat miten komponentti, prosessi tai tehdas tulee käyttäytymään tulevaisuudessa.
+            Aikumon palveluiden avulla voit tietää, mitä seuraavaksi tapahtuu.
+        </p>
+        <ul>
+            <li>Parannamme tuotannon (jalostuslaitos, voimalaitos, prosessin laite) käytettävyyttä vähentämällä
+                yllättäviä vikoja ja tuotannon pysähdyksiä.
+            <li>Auttaa oikeaan ja oikea-aikaiseen ylläpitoon ja huoltotoimenpiteisiin todellisen tarpeen mukaan.
+            <li>Aikumon palvelu oppii prosessin käytöksen, tunnistaa komponenttien eliniän ja mallintaa
+                kulumisen ennakoivaa huoltoa varten.
+        </ul>
+        <!-- TODO: uptime-figure -->
+        <h3>AI-Finance&trade; - Liiketoiminnan seuraamiseen ja ennustamiseen</h3>
+        <p>
+            Miten myynti edistyy? Millaiset ovat erilaisten myynnin toimien ja kamppanjoiden tulokset sekä tehokkuus?
+        </p>
+        <ul>
+            <li>Aikumon tuotteet oppivat myyntiprosessin dynamiikan, markkinoiden käyttymisen sekä
+                asiakassuhteet.
+            <li>Tee tarkempia liikevaihdon ennusteita ja hanki lisää ymmärrystä myynnin kehittämiseen.
+        </ul>
+        <!-- TODO: finance-figure -->
+    </section>
 
-        <section id="technology" class="section">
-            <h2>Teknologia</h2>
-            <p>
-                Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS). Käytämme
-                standardeja Web-teknologian rajapintoja, protokollia ja turvaratkaisuja. Tietoja voidaan lukea helposti
-                esimerkiksi automaatiojärjestelmistä, tietokannoista, mittausverkoista sekä kerätä avointa dataa mistä
-                tahansa ulkopuolisesta lähteestä.
-            </p>
-            <p>
-                Palvelumme toimivat pilvessä tai haluttaessa virtuaalikoneena asiakkaan omassa IT-infrassa, samoilla
-                standardirajapinnoilla.
-            </p>
-            <!-- TODO: technology-figure -->
-        </section>
+    <section id="technology" class="section">
+        <h2>Teknologia</h2>
+        <p>
+            Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS). Käytämme
+            standardeja Web-teknologian rajapintoja, protokollia ja turvaratkaisuja. Tietoja voidaan lukea helposti
+            esimerkiksi automaatiojärjestelmistä, tietokannoista, mittausverkoista sekä kerätä avointa dataa mistä
+            tahansa ulkopuolisesta lähteestä.
+        </p>
+        <p>
+            Palvelumme toimivat pilvessä tai haluttaessa virtuaalikoneena asiakkaan omassa IT-infrassa, samoilla
+            standardirajapinnoilla.
+        </p>
+        <!-- TODO: technology-figure -->
+    </section>
 
-        <section id="contact" class="section">
-            <h2>Ota yhteyttä</h2>
-            <ul>
-                <li>
-                    <h3>Pasi Ojala</h3>
-                    <p>CEO, co-founder</p>
-                </li>
-                <li>
-                    <h3>Kari Rantanen</h3>
-                    <p>Sales and Marketing</p>
-                </li>
-                <li>
-                    <h3>Okko Räsänen</h3>
-                    <p>Chief Scientist, co-founder</p>
-                </li>
-                <li>
-                    <h3>Janne Lähteenmäki</h3>
-                    <p>Software Lead</p>
-                </li>
-            </ul>
-        </section>
-
-    </main>
+    <section id="contact" class="section">
+        <h2>Ota yhteyttä</h2>
+        <ul>
+            <li>
+                <h3>Pasi Ojala</h3>
+                <p>CEO, co-founder</p>
+            </li>
+            <li>
+                <h3>Kari Rantanen</h3>
+                <p>Sales and Marketing</p>
+            </li>
+            <li>
+                <h3>Okko Räsänen</h3>
+                <p>Chief Scientist, co-founder</p>
+            </li>
+            <li>
+                <h3>Janne Lähteenmäki</h3>
+                <p>Software Lead</p>
+            </li>
+        </ul>
+    </section>
 
     <footer>
         Copyright &copy; Aikumo 2014
@@ -169,6 +175,7 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

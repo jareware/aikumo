@@ -11,6 +11,15 @@ $VIEWPORTS_CONFIG:
 $LAYOUT_MAX_WIDTH: 1300px;
 $LAYOUT_PADDING: 20px;
 
+@mixin standard-centered-section {
+    padding-left: $LAYOUT_PADDING;
+    padding-right: $LAYOUT_PADDING;
+    width: 100%;
+    max-width: $LAYOUT_MAX_WIDTH;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 // Colors
 $logoBlue: #369AB3;
 
@@ -19,4 +28,7 @@ $logoBlue: #369AB3;
 @import "header";
 @import "sec-home";
 @import "sec-about";
+@import "sec-services";
+@import "sec-technology";
+@import "sec-contact";
 @import "footer";
