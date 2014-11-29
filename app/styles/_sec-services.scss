@@ -2,4 +2,48 @@ section#services {
 
     @include standard-centered-section();
 
+    .service-section {
+        @extend %shadow;
+        padding: 30px 70px;
+        background: $logoBlue;
+        color: white;
+        overflow: hidden;
+        margin-bottom: 50px;
+        min-height: 400px;
+
+        h3 {
+            font-size: 40px;
+        }
+
+        p {
+            display: block;
+            width: 50%;
+            float: left;
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        ul {
+            width: 50%;
+            float: left;
+
+            li {
+                padding-bottom: 15px;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    background: white;
+                    position: absolute;
+                    top: 9px;
+                    left: -22px;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 12px;
+                    display: block;
+                }
+            }
+        }
+    }
+
 }
