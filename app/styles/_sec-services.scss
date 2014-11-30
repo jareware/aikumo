@@ -1,15 +1,21 @@
 section#services {
+    background: darken($logoBlue, 10%);
+    color: whitesmoke;
 
     @include standard-centered-section();
 
     .service-section {
         @extend %shadow;
         padding: 30px 70px;
-        background: $logoBlue;
-        color: white;
+        background: whitesmoke;
+        color: #444;
         overflow: hidden;
         margin-bottom: 50px;
         min-height: 400px;
+
+        //&.first { background: darken($logoBlue, 15%); }
+        //&.second { background: darken($logoBlue, 5%); }
+        //&.third { background: lighten($logoBlue, 14%); }
 
         h3 {
             font-size: 40px;
@@ -33,7 +39,7 @@ section#services {
 
                 &::before {
                     content: "";
-                    background: white;
+                    background: #444;
                     position: absolute;
                     top: 9px;
                     left: -22px;

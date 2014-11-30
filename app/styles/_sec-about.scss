@@ -1,6 +1,7 @@
 section#about {
 
-    $gridPadding: $LAYOUT_PADDING * 2;
+    // TODO: SORRY!
+    $gridPadding: 40px;
 
     @include standard-centered-section();
 
