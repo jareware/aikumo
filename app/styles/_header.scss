@@ -54,11 +54,16 @@ header {
                 background-image: image-url('aikumo-logo.png');
                 background-size: auto 120px;
                 background-repeat: no-repeat;
-                background-position: center;
+                background-position: left top;
+                // see http://pleeease.io/play/
+                -webkit-transform-origin: left top;
+                transform-origin: left top;
+                transition: -webkit-transform 250ms ease-out;
+                transition: transform 250ms ease-out;
 
                 .minified-header & {
-                    height: 50px;
-                    background-size: auto 50px;
+                    -webkit-transform: scale(0.4) translateY(-50px);
+                    transform: scale(0.4) translateY(-50px);
                 }
 
                 @include viewports(above stacked) {
@@ -67,13 +72,6 @@ header {
                     top: 30px;
                     width: 260px;
                     height: 120px;
-
-                    .minified-header & {
-                        height: 50px;
-                        background-size: auto 50px;
-                        left: -55px; // TODO
-                        top: 10px;
-                    }
                 }
             }
         }
