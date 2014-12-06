@@ -1,3 +1,5 @@
+$headerMinificationSpeed: 250ms;
+
 header {
     background: whitesmoke; //#F2F2F2;
     overflow: visible; // in case the logo wants out of the header
@@ -29,6 +31,7 @@ header {
             text-align: center;
             color: #555;
             font-size: 18px;
+            transition: padding-top $headerMinificationSpeed ease-out;
 
             &:last-child {
                 padding-right: 20px; // TODO
@@ -58,8 +61,8 @@ header {
                 // see http://pleeease.io/play/
                 -webkit-transform-origin: left top;
                 transform-origin: left top;
-                transition: -webkit-transform 250ms ease-out;
-                transition: transform 250ms ease-out;
+                transition: -webkit-transform $headerMinificationSpeed ease-out;
+                transition: transform $headerMinificationSpeed ease-out;
 
                 .minified-header & {
                     -webkit-transform: scale(0.4) translateY(-50px);
