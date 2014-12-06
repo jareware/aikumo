@@ -90,17 +90,17 @@
                     </g>
                     <rect id="Rectangle-14" x="3.58695652" y="11.7142857" width="19.826087" height="7.28571429" rx="8"></rect>
                 </g>
-                <text id="Standard-" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#5A5A5A">
+                <text id="Standard-" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#9B9B9B">
                     <tspan x="264.582031" y="54.4140625">Standard </tspan>
                     <tspan x="241.300781" y="73.4140625">REST API + JSON </tspan>
                     <tspan x="253.339844" y="92.4140625">Data Format</tspan>
                 </text>
-                <text id="HTTP-Requests" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#5A5A5A">
+                <text id="HTTP-Requests" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#9B9B9B">
                     <tspan x="247.128906" y="342.585938">HTTP Requests</tspan>
                     <tspan x="252.351562" y="361.585938">Teaching and</tspan>
                     <tspan x="272.199219" y="380.585938">Results</tspan>
                 </text>
-                <text id="Security-with" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#5A5A5A">
+                <text id="Security-with" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#9B9B9B">
                     <tspan x="255.585938" y="204.585938">Security with</tspan>
                     <tspan x="222.34375" y="223.585938">Standard Authorization</tspan>
                     <tspan x="272.136719" y="242.585938">(OAuth)</tspan>

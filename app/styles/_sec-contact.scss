@@ -10,13 +10,25 @@ section#contact {
         overflow: hidden;
         margin-left: -60px; // For left and right side being aligned with heading
         margin-right: -60px; // Sorry!
+        margin-top: 50px;
 
          li {
             text-align: center;
             float: left;
             width: 25%;
             height: 200px;
-            margin-top: 130px;
+            margin-top: 70px;
+
+             @include viewports(fluid) {
+                 width: 50%;
+                 margin-top: 70px;
+             }
+
+             @include viewports(stacked) {
+                 float: none;
+                 width: 100%;
+                 margin-top: 60px;
+             }
 
             &:nth-child(1) .frame { background-image: url('../images/pasi.jpg') }
             &:nth-child(2) .frame { background-image: url('../images/kari.jpg') }

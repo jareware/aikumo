@@ -13,6 +13,11 @@ section#services {
         margin-bottom: 70px;
         min-height: 400px;
 
+        @include viewports(stacked fluid) {
+            padding: 0px 25px;
+            margin: 30px -20px;
+        }
+
         &.first h3 { color: $logoBlue; }
         &.second h3 { color: #F01B64; }
         &.third h3 { color: #08A93B; }
@@ -20,6 +25,10 @@ section#services {
         h3 {
             font-size: 35px;
             font-weight: normal;
+
+            @include viewports(stacked fluid) {
+                font-size: 25px;
+            }
         }
 
         p {
@@ -27,11 +36,21 @@ section#services {
             width: 40%;
             margin-right: 10%;
             float: left;
+
+            @include viewports(stacked fluid) {
+                float: none;
+                width: 100%;
+            }
         }
 
         ul {
             width: 50%;
             float: left;
+
+            @include viewports(stacked fluid) {
+                float: none;
+                width: 100%;
+            }
 
             li {
                 padding-bottom: 15px;
