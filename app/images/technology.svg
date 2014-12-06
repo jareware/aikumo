@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="924px" height="407px" viewBox="0 0 924 407" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup">
+            <g>
+                <rect id="Rectangle-10" fill="#F6F3F3" sketch:type="MSShapeGroup" x="0" y="0" width="179" height="407" rx="8"></rect>
+                <rect id="Rectangle-9" fill="#F6F3F3" sketch:type="MSShapeGroup" x="408" y="0" width="516" height="407" rx="8"></rect>
+                <g id="Rectangle-10-+-Oval-1" transform="translate(25.000000, 23.000000)" fill="#000000" sketch:type="MSShapeGroup">
+                    <g>
+                        <rect id="Rectangle-10" x="0" y="14.0026204" width="19" height="9.99737963" rx="8"></rect>
+                        <ellipse id="Oval-1" cx="9.42857143" cy="7.3698002" rx="7.14285714" ry="7.3698002"></ellipse>
+                    </g>
+                </g>
+                <g id="Triangle-1-+-Rectangle-11" transform="translate(296.000000, 287.500000) rotate(-90.000000) translate(-296.000000, -287.500000) translate(283.000000, 222.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                    <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
+                    <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
+                </g>
+                <g id="Triangle-1-+-Rectangle-12" transform="translate(296.000000, 142.500000) scale(-1, 1) rotate(-90.000000) translate(-296.000000, -142.500000) translate(283.000000, 77.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                    <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
+                    <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
+                </g>
+                <g id="Rectangle-3-+-DATA-" transform="translate(376.000000, 77.000000)">
+                    <rect id="Rectangle-3" fill="#F01B64" sketch:type="MSShapeGroup" x="0" y="0" width="135" height="131" rx="8"></rect>
+                    <text id="DATA-" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="48.921875" y="55">DATA </tspan>
+                        <tspan x="56.2226562" y="74">API</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-4-+-RESULTS" transform="translate(376.000000, 231.000000)">
+                    <rect id="Rectangle-4" fill="#F01B64" sketch:type="MSShapeGroup" x="0" y="0" width="135" height="131" rx="8"></rect>
+                    <text id="RESULTS" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="39.0039062" y="52">RESULTS</tspan>
+                        <tspan x="56.2226562" y="71">API</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-5-+-Self-Learning" transform="translate(549.000000, 77.000000)">
+                    <rect id="Rectangle-5" fill="#369AB3" sketch:type="MSShapeGroup" x="0.472851802" y="0" width="160.154489" height="56" rx="8"></rect>
+                    <text id="Self-Learning" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="40" y="30">Self Learning</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-6-+-Expert-Learning" transform="translate(549.000000, 150.000000)">
+                    <rect id="Rectangle-6" fill="#369AB3" sketch:type="MSShapeGroup" x="0.472851802" y="0" width="160.154489" height="56" rx="8"></rect>
+                    <text id="Expert-Learning" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="33.1953125" y="31">Expert Learning</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-7-+-Analytics" transform="translate(552.000000, 223.000000)">
+                    <rect id="Rectangle-7" fill="#369AB3" sketch:type="MSShapeGroup" x="-0.1544891" y="0" width="160.154489" height="139" rx="8"></rect>
+                    <text id="Analytics" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="51.4101562" y="64">Analytics</tspan>
+                    </text>
+                </g>
+                <g id="Rectangle-1-+-Sensors" transform="translate(80.000000, 77.000000)">
+                    <rect id="Rectangle-1" fill="#4A4A4A" sketch:type="MSShapeGroup" x="0" y="0" width="135" height="131" rx="8"></rect>
+                    <text id="Sensors" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="42.375" y="39">Sensors</tspan>
+                        <tspan x="36.1835938" y="58">Networks</tspan>
+                        <tspan x="33.9609375" y="77">Databases</tspan>
+                        <tspan x="32.7421875" y="96">Open Data</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-2" fill="#4A4A4A" sketch:type="MSShapeGroup" x="80" y="231" width="135" height="131" rx="8"></rect>
+                <text id="Predictions" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="111.273438" y="287">Predictions</tspan>
+                    <tspan x="105.6875" y="306">Optimization</tspan>
+                </text>
+                <g id="Rectangle-8-+-SQL-" transform="translate(745.000000, 73.000000)">
+                    <rect id="Rectangle-8" fill="#369AB3" sketch:type="MSShapeGroup" x="0" y="0" width="135" height="289" rx="8"></rect>
+                    <text id="SQL-" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                        <tspan x="58.078125" y="110">SQL </tspan>
+                        <tspan x="35.859375" y="129">DATABASE</tspan>
+                    </text>
+                </g>
+                <text id="AIKUMO-PREDICTOR" sketch:type="MSTextLayer" font-family="Calibri" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="488" y="37">AIKUMO PREDICTOR</tspan>
+                </text>
+                <text id="CUSTOMER" sketch:type="MSTextLayer" font-family="Calibri" font-size="20" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="58" y="42">CUSTOMER</tspan>
+                </text>
+                <g id="Oval-2-+-Oval-3-+-Oval-4-+-Rectangle-14" transform="translate(445.000000, 21.000000)" fill="#000000" sketch:type="MSShapeGroup">
+                    <g id="Oval-2-+-Oval-3-+-Oval-4">
+                        <ellipse id="Oval-2" cx="14.5217391" cy="6.67857143" rx="5.73913043" ry="6.67857143"></ellipse>
+                        <ellipse id="Oval-3" cx="21.2608696" cy="12.3214286" rx="5.73913043" ry="6.67857143"></ellipse>
+                        <ellipse id="Oval-4" cx="5.73913043" cy="12.3214286" rx="5.73913043" ry="6.67857143"></ellipse>
+                    </g>
+                    <rect id="Rectangle-14" x="3.58695652" y="11.7142857" width="19.826087" height="7.28571429" rx="8"></rect>
+                </g>
+                <text id="Standard-" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#5A5A5A">
+                    <tspan x="264.582031" y="54.4140625">Standard </tspan>
+                    <tspan x="241.300781" y="73.4140625">REST API + JSON </tspan>
+                    <tspan x="253.339844" y="92.4140625">Data Format</tspan>
+                </text>
+                <text id="HTTP-Requests" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#5A5A5A">
+                    <tspan x="247.128906" y="342.585938">HTTP Requests</tspan>
+                    <tspan x="252.351562" y="361.585938">Teaching and</tspan>
+                    <tspan x="272.199219" y="380.585938">Results</tspan>
+                </text>
+                <text id="Security-with" sketch:type="MSTextLayer" font-family="Calibri" font-size="16" font-weight="normal" sketch:alignment="middle" fill="#5A5A5A">
+                    <tspan x="255.585938" y="204.585938">Security with</tspan>
+                    <tspan x="222.34375" y="223.585938">Standard Authorization</tspan>
+                    <tspan x="272.136719" y="242.585938">(OAuth)</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

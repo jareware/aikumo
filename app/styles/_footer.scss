@@ -4,6 +4,81 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-    height: 700px;
+    min-height: 100vh;
     width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 150px;
+
+    .contact-us {
+        padding: 180px 0 0 0;
+        color: white;
+        font-size: 60px;
+        font-weight: 100;
+    }
+
+    .release {
+        padding: 70px 0 130px 0;
+        color: white;
+        font-size: 30px;
+    }
+
+    form {
+        margin-bottom: 200px;
+        overflow: hidden;
+        width: 70%;
+        margin: 0 auto;
+
+        > div {
+            overflow: hidden;
+            float: left;
+            width: 65%;
+
+            input, textarea {
+                border-radius: 4px;
+                outline: none;
+                border: none;
+                @extend %shadow-large;
+                padding: 30px;
+                font-size: 20px;
+            }
+
+            input {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            textarea {
+                width: 100%;
+                float: left;
+            }
+        }
+
+        button {
+            vertical-align: top;
+            text-transform: uppercase;
+            padding: 30px;
+            font-size: 20px;
+            text-align: center;
+            color: #fafafa;
+            background: $logoBlue;
+            border: none;
+            @extend %shadow-large;
+            width: 30%;
+            margin-left: 5%;
+            float: left;
+            height: 100%;
+            border-radius: 4px;
+        }
+    }
+
+    .copyright {
+        position: absolute;
+        width: 100%;
+        bottom: 40px;
+        left: 0;
+        font-size: 16px;
+        color: #98c6d6;
+    }
 }
