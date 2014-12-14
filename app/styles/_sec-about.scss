@@ -1,6 +1,9 @@
 section#about {
     $gridPadding: 80px;
-    width: 100%;
+
+    .intro-area {
+        @include standard-centered-section();
+    }
 
     @include viewports(above stacked) {
 
@@ -26,6 +29,7 @@ section#about {
     }
 
     .about-sections {
+        @include standard-centered-section();
 
         section {
             @include viewports(up-to fluid) {

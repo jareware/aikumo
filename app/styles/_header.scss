@@ -23,7 +23,6 @@ header {
     nav {
         background: whitesmoke; //#F2F2F2;
         width: 100%;
-        max-width: $LAYOUT_MAX_WIDTH;
         margin: 0 auto;
         text-align: right; // in "above stacked", the nav-items should pack to the right
         overflow: hidden;

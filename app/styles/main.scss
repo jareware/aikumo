@@ -9,16 +9,12 @@ $VIEWPORTS_CONFIG:
 @import "viewports/_viewports.scss";
 // endbower
 
-$LAYOUT_MAX_WIDTH: 1300px;
+$LAYOUT_MAX_WIDTH: 1000px;
 $LAYOUT_PADDING: 100px;
 
-
-// TODO: Sorry!
 @mixin standard-centered-section {
-    //padding-left: $LAYOUT_PADDING;
-    //padding-right: $LAYOUT_PADDING;
     width: 100%;
-    //max-width: $LAYOUT_MAX_WIDTH;
+    max-width: $LAYOUT_MAX_WIDTH;
     margin-left: auto;
     margin-right: auto;
 }

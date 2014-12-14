@@ -2,12 +2,15 @@ section#contact {
     background: rgb(239, 239, 237);
     width: 100%;
 
+    h2 {
+        @include standard-centered-section();
+        text-align: center;
+    }
+
     ul {
-        margin: 0;
+        @include standard-centered-section();
         padding: 0;
         overflow: hidden;
-        margin-left: -60px; // For left and right side being aligned with heading
-        margin-right: -60px; // Sorry!
         margin-top: 50px;
 
          li {
