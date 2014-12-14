@@ -41,7 +41,7 @@ h2 {
     overflow: hidden;
     padding: 40px 0 150px 0;
 
-    @include viewports(stacked fluid) {
+    @include viewports(up-to fluid) {
         padding-bottom: 70px;
     }
 
@@ -53,7 +53,7 @@ h2 {
         margin-left: 4%;
         float: left;
 
-        @include viewports(stacked fluid) {
+        @include viewports(up-to fluid) {
             float: none;
             width: 100%;
             margin: 30px 0 0 0;
@@ -70,7 +70,7 @@ h2 {
         float: left;
         margin: 0;
 
-        @include viewports(stacked fluid) {
+        @include viewports(up-to fluid) {
             float: none;
             width: 100%;
             font-size: 50px;

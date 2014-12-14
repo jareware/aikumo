@@ -79,7 +79,7 @@ header {
                 }
             }
 
-            @include viewports(static) {
+            @include viewports(up-from static) {
                 display: inline-block; // switch to inline-block to pack links to the right
             }
 

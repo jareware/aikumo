@@ -9,12 +9,12 @@ section#technology {
         margin-bottom: 80px;
         width: 100%;
 
-        @include viewports(fluid) {
+        @include viewports(up-to fluid) {
             margin-top: 10px;
             margin-bottom: 60px;
         }
 
-        @include viewports(stacked) {
+        @include viewports(up-to stacked) {
             margin-top: 0;
             margin-bottom: 20px;
         }

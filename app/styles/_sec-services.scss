@@ -13,7 +13,7 @@ section#services {
         margin-bottom: 70px;
         min-height: 400px;
 
-        @include viewports(stacked) {
+        @include viewports(up-to stacked) {
             padding: 0px 25px;
             margin: 30px -20px;
         }
@@ -32,7 +32,7 @@ section#services {
             line-height: 40px;
             font-weight: normal;
 
-            @include viewports(stacked fluid) {
+            @include viewports(up-to fluid) {
                 font-size: 25px;
                 line-height: 30px;
             }
@@ -42,7 +42,7 @@ section#services {
             width: 45%;
             float: left;
 
-            @include viewports(stacked fluid) {
+            @include viewports(up-to fluid) {
                 float: none;
                 width: 100%;
             }
@@ -80,7 +80,7 @@ section#services {
             margin-bottom: 40px;
             float: left;
 
-            @include viewports(stacked fluid) {
+            @include viewports(up-to fluid) {
                 float: none;
                 width: 100%;
                 margin: 40px 0;

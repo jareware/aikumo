@@ -22,7 +22,7 @@ body > * {
         font-size: 6vw;
         //font-weight: 100;
 
-        @include viewports(stacked fluid) {
+        @include viewports(up-to fluid) {
             font-size: 40px;
         }
     }

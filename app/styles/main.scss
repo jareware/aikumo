@@ -28,7 +28,7 @@ $LAYOUT_PADDING: 100px;
     width: 100%;
     //max-width: $LAYOUT_MAX_WIDTH;
 
-    @include viewports(stacked) {
+    @include viewports(up-to stacked) {
         padding-left: 30px;
         padding-right: 30px;
     }
