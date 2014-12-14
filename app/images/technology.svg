@@ -3,10 +3,72 @@
     <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <style type="text/css"><![CDATA[
+            #animated-arrow-right-1 {
+                -webkit-animation: slide-lead 4s linear infinite;
+                animation:         slide-lead 4s linear infinite;
+            }
+            #animated-arrow-right-2 {
+                -webkit-animation: slide-follow 4s linear infinite;
+                animation:         slide-follow 4s linear infinite;
+            }
+            #animated-arrow-left-1 {
+                -webkit-animation: slide-lead 4s linear infinite reverse;
+                animation:         slide-lead 4s linear infinite reverse;
+            }
+            #animated-arrow-left-2 {
+                -webkit-animation: slide-follow 4s linear infinite reverse;
+                animation:         slide-follow 4s linear infinite reverse;
+            }
+            @keyframes slide-lead {
+                from { transform: translateX(0);    }
+                to   { transform: translateX(110%); }
+            }
+            @-webkit-keyframes slide-lead {
+                from { -webkit-transform: translateX(0);    }
+                to   { -webkit-transform: translateX(110%); }
+            }
+            @keyframes slide-follow {
+                from { transform: translateX(-110%); }
+                to   { transform: translateX(0);     }
+            }
+            @-webkit-keyframes slide-follow {
+                from { -webkit-transform: translateX(-110%); }
+                to   { -webkit-transform: translateX(0);     }
+            }
+        ]]></style>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Group" sketch:type="MSLayerGroup">
             <g>
+
+                <g id="animated-arrow-right-1">
+                    <g id="Triangle-1-+-Rectangle-12" transform="translate(296.000000, 142.500000) scale(-1, 1) rotate(-90.000000) translate(-296.000000, -142.500000) translate(283.000000, 77.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                        <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
+                        <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
+                    </g>
+                </g>
+                <g id="animated-arrow-right-2">
+                    <g id="Triangle-1-+-Rectangle-12-copy" transform="translate(296.000000, 142.500000) scale(-1, 1) rotate(-90.000000) translate(-296.000000, -142.500000) translate(283.000000, 77.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                        <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
+                        <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
+                    </g>
+                </g>
+
+                <g id="animated-arrow-left-1">
+                    <g id="Triangle-1-+-Rectangle-11" transform="translate(296.000000, 287.500000) rotate(-90.000000) translate(-296.000000, -287.500000) translate(283.000000, 222.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                        <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
+                        <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
+                    </g>
+                </g>
+                <g id="animated-arrow-left-2">
+                    <g id="Triangle-1-+-Rectangle-11-copy" transform="translate(296.000000, 287.500000) rotate(-90.000000) translate(-296.000000, -287.500000) translate(283.000000, 222.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
+                        <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
+                        <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
+                    </g>
+                </g>
+
                 <rect id="Rectangle-10" fill="#F6F3F3" sketch:type="MSShapeGroup" x="0" y="0" width="179" height="407" rx="8"></rect>
                 <rect id="Rectangle-9" fill="#F6F3F3" sketch:type="MSShapeGroup" x="408" y="0" width="516" height="407" rx="8"></rect>
                 <g id="Rectangle-10-+-Oval-1" transform="translate(25.000000, 23.000000)" fill="#000000" sketch:type="MSShapeGroup">
@@ -14,14 +76,6 @@
                         <rect id="Rectangle-10" x="0" y="14.0026204" width="19" height="9.99737963" rx="8"></rect>
                         <ellipse id="Oval-1" cx="9.42857143" cy="7.3698002" rx="7.14285714" ry="7.3698002"></ellipse>
                     </g>
-                </g>
-                <g id="Triangle-1-+-Rectangle-11" transform="translate(296.000000, 287.500000) rotate(-90.000000) translate(-296.000000, -287.500000) translate(283.000000, 222.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
-                    <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
-                    <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
-                </g>
-                <g id="Triangle-1-+-Rectangle-12" transform="translate(296.000000, 142.500000) scale(-1, 1) rotate(-90.000000) translate(-296.000000, -142.500000) translate(283.000000, 77.000000)" fill="#D8D8D8" sketch:type="MSShapeGroup">
-                    <polygon id="Triangle-1" points="13 0 26 23.2888889 0 23.2888889 "></polygon>
-                    <rect id="Rectangle-11" x="10" y="23.2888889" width="6" height="107.711111"></rect>
                 </g>
                 <g id="Rectangle-3-+-DATA-" transform="translate(376.000000, 77.000000)">
                     <rect id="Rectangle-3" fill="#F01B64" sketch:type="MSShapeGroup" x="0" y="0" width="135" height="131" rx="8"></rect>
