@@ -6,7 +6,7 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Group" sketch:type="MSLayerGroup">
-            <rect id="Rectangle-10" fill="#F6F3F3" sketch:type="MSShapeGroup" x="0" y="2" width="231" height="241" rx="8"></rect>
+            <rect id="Rectangle-10" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="2" width="231" height="241" rx="8"></rect>
             <g id="Rectangle-10-+-Oval-1" transform="translate(25.000000, 25.000000)" fill="#000000" sketch:type="MSShapeGroup">
                 <g>
                     <rect id="Rectangle-10" x="0" y="14.0026204" width="19" height="9.99737963" rx="8"></rect>
@@ -52,7 +52,7 @@
             <text id="CUSTOMER-DATA" sketch:type="MSTextLayer" font-family="Calibri" font-size="18" font-weight="normal" fill="#4A4A4A">
                 <tspan x="67" y="44">CUSTOMER DATA</tspan>
             </text>
-            <rect id="Rectangle-11" fill="#F6F3F3" sketch:type="MSShapeGroup" x="2" y="259" width="231" height="241" rx="8"></rect>
+            <rect id="Rectangle-11" fill="#D8D8D8" sketch:type="MSShapeGroup" x="2" y="259" width="231" height="241" rx="8"></rect>
             <g id="Rectangle-1-+--2" transform="translate(40.000000, 331.000000)">
                 <rect id="Rectangle-1" fill="#4A4A4A" sketch:type="MSShapeGroup" x="0" y="0" width="158" height="68" rx="8"></rect>
                 <text id="" sketch:type="MSTextLayer" font-family="Calibri" font-size="14" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
@@ -70,7 +70,7 @@
             <text id="OPEN-DATA" sketch:type="MSTextLayer" font-family="Calibri" font-size="18" font-weight="normal" fill="#4A4A4A">
                 <tspan x="79" y="301">OPEN DATA</tspan>
             </text>
-            <rect id="Rectangle-13" fill="#F6F3F3" sketch:type="MSShapeGroup" x="641" y="128" width="231" height="241" rx="8"></rect>
+            <rect id="Rectangle-13" fill="#D8D8D8" sketch:type="MSShapeGroup" x="641" y="128" width="231" height="241" rx="8"></rect>
             <g id="Rectangle-10-+-Oval-4" transform="translate(666.000000, 151.000000)" fill="#000000" sketch:type="MSShapeGroup">
                 <g id="Rectangle-10-+-Oval-1">
                     <rect id="Rectangle-10" x="0" y="14.0026204" width="19" height="9.99737963" rx="8"></rect>
