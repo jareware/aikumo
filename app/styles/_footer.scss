@@ -1,5 +1,8 @@
 footer {
     background-image: url(../images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    background-size: contain;
     background-color: darken($logoBlue, 15%);
     color: white;
     padding: 120px;
