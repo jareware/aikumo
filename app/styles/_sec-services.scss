@@ -42,21 +42,30 @@ section#services {
             }
         }
 
-        > div {
-            width: 45%;
-            float: left;
-
-            @include viewports(up-to fluid-) {
-                float: none;
-                width: 100%;
-            }
+        > div { // e.g. the text box
+            width: 100%;
 
             p {
                 display: block;
+                width: 30%;
+                float: left;
+                margin-right: 5%;
+
+                @include viewports(up-to fluid-) {
+                    width: 100%;
+                    float: none;
+                }
             }
 
             ul {
-                padding-left: 25px;
+                width: 65%;
+                float: left;
+
+                @include viewports(up-to fluid-) {
+                  padding-left: 25px;
+                  width: 100%;
+                  float: none;
+                }
 
                 li {
                     padding-bottom: 15px;
@@ -78,18 +87,10 @@ section#services {
         }
 
         img {
-            width: 50%;
-            margin-left: 5%;
+            width: 100%;
             margin-top: 40px;
             margin-bottom: 40px;
-            float: left;
-
-            @include viewports(up-to fluid-) {
-                float: none;
-                width: 100%;
-                margin: 40px 0;
-                text-align: center;
-            }
+            text-align: center;
         }
     }
 
