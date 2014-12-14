@@ -153,8 +153,7 @@ module.exports = function (grunt) {
     sass: {
       options: {
         sourceMap: true,
-        includePaths: ['bower_components'],
-        imagePath: '/images'
+        includePaths: ['bower_components']
       },
       dist: {
         files: [{
@@ -253,16 +252,16 @@ module.exports = function (grunt) {
       }
     },
 
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= config.app %>/images',
-          src: '{,*/}*.svg',
-          dest: '<%= config.dist %>/images'
-        }]
-      }
-    },
+    //svgmin: {
+    //  dist: {
+    //    files: [{
+    //      expand: true,
+    //      cwd: '<%= config.app %>/images',
+    //      src: '{,*/}*.svg',
+    //      dest: '<%= config.dist %>/images'
+    //    }]
+    //  }
+    //},
 
     htmlmin: {
       dist: {
@@ -337,6 +336,18 @@ module.exports = function (grunt) {
         cwd: '<%= config.app %>/styles',
         dest: '.tmp/styles/',
         src: '{,*/}*.css'
+      },
+      fontawesome: {
+        expand: true,
+        cwd: '<%= config.app %>/../bower_components/fontawesome',
+        src: 'fonts/*',
+        dest: '<%= config.dist %>'
+      },
+      svgmin: { // this copy-target replaces the copying that "svgmin" would itself do, had it not been disabled by us
+        expand: true,
+        cwd: '<%= config.app %>/images',
+        src: '{,*/}*.svg',
+        dest: '<%= config.dist %>/images'
       }
     },
 
@@ -353,7 +364,8 @@ module.exports = function (grunt) {
         'sass',
         'copy:styles',
         'imagemin',
-        'svgmin'
+        //'svgmin' // enabling this will strip animations from our SVG's
+        'copy:svgmin' // ...so let's just copy the files without touching them
       ]
     }
   });
@@ -399,6 +411,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
+    'copy:fontawesome',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
