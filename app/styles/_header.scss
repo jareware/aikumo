@@ -62,8 +62,9 @@ header {
             @include viewports(up-to stacked) {
                 &:first-child {
                     width: 50%;
+                    max-width: 180px; // so the logo won't blow up
                     position: absolute;
-                    top: 18px;
+                    top: 5px;
                     left: 10px;
                     //margin-bottom: -2px !important;
                 }
