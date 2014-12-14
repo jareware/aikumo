@@ -32,7 +32,7 @@ section#services {
             line-height: 40px;
             font-weight: normal;
 
-            @include viewports(up-to fluid) {
+            @include viewports(up-to fluid-) {
                 font-size: 25px;
                 line-height: 30px;
             }
@@ -42,7 +42,7 @@ section#services {
             width: 45%;
             float: left;
 
-            @include viewports(up-to fluid) {
+            @include viewports(up-to fluid-) {
                 float: none;
                 width: 100%;
             }
@@ -80,7 +80,7 @@ section#services {
             margin-bottom: 40px;
             float: left;
 
-            @include viewports(up-to fluid) {
+            @include viewports(up-to fluid-) {
                 float: none;
                 width: 100%;
                 margin: 40px 0;

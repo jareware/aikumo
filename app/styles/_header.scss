@@ -50,7 +50,7 @@ header {
                 color: #777;
             }
 
-            @include viewports(fluid) {
+            @include viewports(fluid fluid-) {
                 display: inline-block; // switch to inline-block to pack links to the right
                 width: (100% - 25%) / 4; // leave ~25% space for the logo
                 text-align: left;
@@ -109,7 +109,7 @@ header {
                     .minified-header & { // collapse the logo to its smaller size when scrolled down
                         transform: translateY(-50%) scale(0.4);
                     }
-                    @include viewports(fluid) { // ...or when in fluid layout mode
+                    @include viewports(fluid fluid-) { // ...or when in fluid layout mode
                         transform: translateY(-50%) scale(0.4);
                     }
                 }

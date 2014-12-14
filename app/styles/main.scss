@@ -1,5 +1,6 @@
 $VIEWPORTS_CONFIG:
     up-to  550px it-is "stacked",
+    up-to  924px it-is "fluid-", // slightly below "fluid"
     up-to 1024px it-is "fluid",
     beyond-that  it-is "static";
 //$VIEWPORTS_DEBUG: true;
