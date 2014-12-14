@@ -1,8 +1,7 @@
 section#technology {
     background: rgb(47, 47, 45);
     color: #d6d6d6;
-
-    @include standard-centered-section();
+    width: 100%;
 
     img {
         margin-top: 40px;

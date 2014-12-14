@@ -1,9 +1,6 @@
 section#about {
-
-    // TODO: SORRY!
     $gridPadding: 80px;
-
-    @include standard-centered-section();
+    width: 100%;
 
     @include viewports(above stacked) {
 

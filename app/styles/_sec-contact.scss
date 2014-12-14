@@ -1,8 +1,6 @@
 section#contact {
     background: rgb(239, 239, 237);
-
-    @include standard-centered-section();
-
+    width: 100%;
 
     ul {
         margin: 0;

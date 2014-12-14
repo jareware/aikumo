@@ -1,8 +1,7 @@
 section#services {
     background: darken($logoBlue, 10%);
     color: whitesmoke;
-
-    @include standard-centered-section();
+    width: 100%;
 
     .service-section {
         @extend %shadow-large;
