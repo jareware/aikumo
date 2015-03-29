@@ -104,7 +104,13 @@
 
   "contact": {
     "navi": "Ota yhteyttä",
-    "title": "OTA MEIHIN YHTEYTTÄ"
+    "title": "OTA MEIHIN YHTEYTTÄ",
+
+    "tagline": "Release the hidden power in your data. Now it's finally easy as 1-2-3!",
+    "email": "Sähköpostiosoitteesi",
+    "message": "Miten voimme olla avuksi?",
+    "submit": "Ota yhteyttä",
+    "copyright": "Copyright &copy; Aikumo 2014"
   }
 
 }

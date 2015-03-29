@@ -107,15 +107,15 @@
 
     <footer id="contact" >
         <div class="contact">{{ contact.title }}</div>
-        <div class="release">Release the hidden power in your data. Now it's finally easy as 1-2-3!</div>
+        <div class="release">{{ contact.tagline }}</div>
         <form>
             <div>
-                <input type="email" placeholder="Sähköpostiosoitteesi" />
-                <textarea type="email" rows="7" placeholder="Miten voimme olla avuksi?"></textarea>
+                <input type="email" placeholder="{{ contact.email }}" />
+                <textarea type="email" rows="7" placeholder="{{ contact.message }}"></textarea>
             </div>
-            <button type="submit">Ota yhteyttä</button>
+            <button type="submit">{{ contact.submit }}</button>
         </form>
-        <div class="copyright">Copyright &copy; Aikumo 2014</div>
+        <div class="copyright">{{ contact.copyright }}</div>
     </footer>
 
     <!-- build:js(.) scripts/vendor.js -->
