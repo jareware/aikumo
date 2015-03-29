@@ -391,6 +391,7 @@ module.exports = function (grunt) {
       };
     };
     var options = {
+      interpolate: /{{([\s\S]+?)}}/g, // e.g. mustache interpolation
       imports: {
         p: generator('p'),
         li: generator('li')
