@@ -76,7 +76,30 @@
 
   "team": {
     "navi": "Tiimi",
-    "title": "Tiimi"
+    "title": "Tiimi",
+
+    "members": [
+      {
+        "name": "Pasi Ojala",
+        "title": "CEO, co-founder",
+        "image": "pasi.jpg"
+      },
+      {
+        "name": "Kari Rantanen",
+        "title": "Sales and Marketing",
+        "image": "kari.jpg"
+      },
+      {
+        "name": "Okko Räsänen",
+        "title": "Chief Scientist, co-founder",
+        "image": "okko.png"
+      },
+      {
+        "name": "Janne Lähteenmäki",
+        "title": "Software Lead",
+        "image": "janne.jpg"
+      }
+    ]
   },
 
   "contact": {

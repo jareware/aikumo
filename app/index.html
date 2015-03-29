@@ -95,26 +95,13 @@
     <section id="team" class="section">
         <h2>{{ team.title }}</h2>
         <ul>
-            <li>
-                <div class="frame"></div>
-                <h3>Pasi Ojala</h3>
-                <p>CEO, co-founder</p>
-            </li>
-            <li>
-                <div class="frame"></div>
-                <h3>Kari Rantanen</h3>
-                <p>Sales and Marketing</p>
-            </li>
-            <li>
-                <div class="frame"></div>
-                <h3>Okko Räsänen</h3>
-                <p>Chief Scientist, co-founder</p>
-            </li>
-            <li>
-                <div class="frame"></div>
-                <h3>Janne Lähteenmäki</h3>
-                <p>Software Lead</p>
-            </li>
+            <% team.members.forEach(function(member) { %>
+                <li>
+                    <div class="frame" style="background-image: url('../images/{{ member.image }}')"></div>
+                    <h3>{{ member.name }}</h3>
+                    <p>{{ member.title }}</p>
+                </li>
+            <% }) %>
         </ul>
     </section>
 

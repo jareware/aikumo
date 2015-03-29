@@ -31,11 +31,6 @@ section#team {
                  margin-top: 60px;
              }
 
-            &:nth-child(1) .frame { background-image: url('../images/pasi.jpg') }
-            &:nth-child(2) .frame { background-image: url('../images/kari.jpg') }
-            &:nth-child(3) .frame { background-image: url('../images/okko.png') }
-            &:nth-child(4) .frame { background-image: url('../images/janne.jpg') }
-
             $dimension: 110px;
             .frame {
                 @extend %shadow;
