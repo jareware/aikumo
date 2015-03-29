@@ -1,1 +1,35 @@
-{}
+{
+
+  "home": {
+    "navi": "AIKUMO",
+    "title": "AIKUMO",
+    "tagline": "Making Meaning",
+    "readMore": "LUE LISÄÄ"
+  },
+
+  "about": {
+    "navi": "Tietoon merkitystä",
+    "title": "Luomme tietoon merkitystä"
+  },
+
+  "services": {
+    "navi": "Sovellukset ja&nbsp;palvelut",
+    "title": "Sovellukset ja palvelut"
+  },
+
+  "technology": {
+    "navi": "Teknologia",
+    "title": "Teknologia"
+  },
+
+  "team": {
+    "navi": "Tiimi",
+    "title": "Tiimi"
+  },
+
+  "contact": {
+    "navi": "Ota yhteyttä",
+    "title": "OTA MEIHIN YHTEYTTÄ"
+  }
+
+}

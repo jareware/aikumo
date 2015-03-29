@@ -2,8 +2,7 @@
 <html class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>Aikumo</title>
-    <!-- TODO: ^ "Making meaning with data analytics and machine learning" -->
+    <title><%= home.title %> - <%= home.tagline %></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -23,28 +22,28 @@
 
     <header>
         <nav>
-            <a data-scroll href="#home">Aikumo</a>
-            <a data-scroll href="#about">Tietoon merkitystä</a>
-            <a data-scroll href="#services">Sovellukset <span style="white-space: nowrap">ja palvelut</span></a>
-            <a data-scroll href="#technology">Teknologia</a>
-            <a data-scroll href="#team">Tiimi</a>
-            <a data-scroll href="#contact">Ota yhteyttä</a>
+            <a data-scroll href="#home"><%= home.navi %></a>
+            <a data-scroll href="#about"><%= about.navi %></a>
+            <a data-scroll href="#services"><%= services.navi %></a>
+            <a data-scroll href="#technology"><%= technology.navi %></a>
+            <a data-scroll href="#team"><%= team.navi %></a>
+            <a data-scroll href="#contact"><%= contact.navi %></a>
         </nav>
     </header>
 
     <section id="home">
         <div>
-            <h1>Aikumo</h1>
+            <h1><%= home.title %></h1>
             <div class="bottom-half">
-                <p>Making Meaning</p>
-                <a data-scroll href="#about">Lue lisää</a>
+                <p><%= home.tagline %></p>
+                <a data-scroll href="#about"><%= home.readMore %></a>
             </div>
         </div>
     </section>
 
     <section id="about" class="section">
         <div class="intro-area">
-            <h2>Luomme tietoon merkitystä</h2>
+            <h2><%= about.title %></h2>
             <div class="intro">
                 Maailma on täynnä dataa. Me luomme siihen merkitystä. Meidän liiketoimintamme tarkoitus on parantaa
                 asiakkaidemme liiketoiminnan tehokkuutta. Aikumo analysoi tietoa älykkäillä, itseoppivilla ohjelmistoilla
@@ -95,7 +94,7 @@
 
     <section id="services" class="section">
         <div class="intro-area">
-            <h2>Sovellukset ja palvelut</h2>
+            <h2><%= services.title %></h2>
             <div class="intro">
                 Meillä on kolmella toimialalla jo useita sovelluksia ja palveluita, jotka on verifioitu ja testattu yhdessä
                 asiakkaidemme kanssa. Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a
@@ -154,7 +153,7 @@
 
     <section id="technology" class="section">
         <div class="intro-area">
-            <h2>Teknologia</h2>
+            <h2><%= technology.title %></h2>
             <div class="intro">
                 Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS). Käytämme
                 standardeja Web-teknologian rajapintoja, protokollia ja turvaratkaisuja. Tietoja voidaan lukea helposti
@@ -167,7 +166,7 @@
     </section>
 
     <section id="team" class="section">
-        <h2>Tiimi</h2>
+        <h2><%= team.title %></h2>
         <ul>
             <li>
                 <div class="frame"></div>
@@ -193,7 +192,7 @@
     </section>
 
     <footer id="contact" >
-        <div class="contact">OTA MEIHIN YHTEYTTÄ</div>
+        <div class="contact"><%= contact.title %></div>
         <div class="release">Release the hidden power in your data. Now it's finally easy as 1-2-3!</div>
         <form>
             <div>
