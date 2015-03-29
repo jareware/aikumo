@@ -46,7 +46,7 @@ module.exports = function (grunt) {
         tasks: ['test:watch']
       },
       html: {
-        files: ['<%= config.app %>/index.html', 'config/content.json'],
+        files: ['<%= config.app %>/index.html', 'config/*.json'],
         tasks: ['populate-html'],
         options: {
           livereload: true
@@ -201,7 +201,7 @@ module.exports = function (grunt) {
     wiredep: {
       app: {
         ignorePath: /^\/|\.\.\//,
-        src: ['<%= config.app %>/index.html']
+        src: ['<%= config.app %>/*.html']
       },
       sass: {
         src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
@@ -231,7 +231,7 @@ module.exports = function (grunt) {
       options: {
         dest: '<%= config.dist %>'
       },
-      html: '<%= config.app %>/index.html'
+      html: '<%= config.app %>/*.html'
     },
 
     // Performs rewrites based on rev and the useminPrepare configuration
@@ -402,9 +402,16 @@ module.exports = function (grunt) {
 
   grunt.registerTask('populate-html', function(target) {
     if (target === 'dist') {
-      writeTemplatedHtml('config/content.json', 'dist/index.html', 'dist/index.html');
+      writeTemplatedHtml('config/content-en.json', 'app/index.html', 'dist/en.html');
+      writeTemplatedHtml('config/content-fi.json', 'app/index.html', 'dist/fi.html');
     } else { // dev
-      writeTemplatedHtml('config/content.json', 'app/index.html', '.tmp/index.html');
+      writeTemplatedHtml('config/content-fi.json', 'app/index.html', '.tmp/index.html');
+    }
+  });
+
+  grunt.registerTask('default-html', function(target) {
+    if (target === 'dist') {
+      grunt.file.copy('dist/fi.html', 'dist/index.html');
     }
   });
 
@@ -449,6 +456,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
+    'populate-html:dist',
     'copy:fontawesome',
     'wiredep',
     'useminPrepare',
@@ -461,7 +469,7 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin',
-    'populate-html:dist'
+    'default-html:dist'
   ]);
 
   grunt.registerTask('default', [
