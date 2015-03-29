@@ -1,0 +1,116 @@
+{
+
+  "home": {
+    "navi": "AIKUMO",
+    "title": "AIKUMO",
+
+    "tagline": "Making Meaning",
+    "readMore": "LUE LISÄÄ"
+  },
+
+  "about": {
+    "navi": "Tietoon merkitystä",
+    "title": "Luomme tietoon merkitystä",
+
+    "intro": "Maailma on täynnä dataa. Me luomme siihen merkitystä. Meidän liiketoimintamme tarkoitus on parantaa asiakkaidemme liiketoiminnan tehokkuutta. Aikumo analysoi tietoa älykkäillä, itseoppivilla ohjelmistoilla monien teollisuuden ja liiketoiminnan prosessien tehostamiseksi. Ainutlaatuinen analysointiratkaisumme skaalautuu millaisiin tahansa tietomääriin.",
+
+    "promise": {
+      "title": "Lupauksemme",
+      "content": "Jos yrityksenne tietomassoissa on informaatiota, me löydämme sen! Riippumatta siitä, miten järjestymättömissä muodoissa tiedot ovat ja tiedättekö vielä itse niiden sisältämistä riippuvuuksista. Piilossa oleva tieto on hyvin usein käännettävissä merkittäviksi liiketoimintaeduiksi tai uusiksi mahdollisuuksiksi. Tuloksena asiakkaamme saavat tietoa siitä, mitä prosesseissa tapahtuu, mitä niissä tulee tapahtumaan seuraavaksi ja mikä on paras tapa toimia. Tämä tarkoittaa merkittäviä säästöjä, vähemmän yllättäviä tuotantokatkoja ja parempaa kannattavuutta."
+    },
+
+    "fast": {
+      "title": "Nopeasti ja tehokkaasti",
+      "content": [
+        "Meidän liiketoimintamme ydin on asiakkaidemme liiketoimintaprosessien parantaminen ja paremman tiedon tuottaminen päätösten pohjaksi.",
+        "Ratkaisujemme pohjana ovat monien vuosien aikana kehitetyt, kansainvälisesti patentoidut algoritmit, jotka käyvät älykkäästi läpi kaiken niille syötetyn tiedon ja löytävät siinä olevat korrelaatiot. Tuotteemme ja palvelumme ovat erittäin vahvasti itseoppivia, mikä mahdollistaa tavattoman nopean toiminnan ja tulosten saamisen."
+      ]
+    },
+
+    "onetwothree": {
+      "title": "Yksi - kaksi - kolme",
+      "content": [
+        "Ensin suoritamme testiajon asiakkaan meille toimittamilla tiedoilla.",
+        "Sen jälkeen tutkimme tuloksia yhdessä. Tämä voidaan tehdä seuraavana työpäivänä!",
+        "Jos olemme molemmat vakuuttuneita tuloksista ja uuden ratkaisun potentiaalista, sovimme sen tuotteistamisesta bisneskäyttöön. Sen tekemiseen tarvitsemme yleensä vain viikon tai kaksi, jonka jälkeen on hyötykäytön aika!"
+      ]
+    }
+  },
+
+  "services": {
+    "navi": "Sovellukset ja&nbsp;palvelut",
+    "title": "Sovellukset ja palvelut",
+
+    "intro": "Meillä on kolmella toimialalla jo useita sovelluksia ja palveluita, jotka on verifioitu ja testattu yhdessä asiakkaidemme kanssa. Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS).",
+
+    "sections": [
+      {
+        "title": "AI-Energy&trade; - Energiantuotannon ja energiamarkkinoiden käyttöön",
+        "description": "Kuinka paljon energiaa verkossa kuluu ja miltä koko energiamarkkina samanaikaisesti näyttää? Ennuste kertoo optimaaliset markkinaoperaatiot kulujen minimoimiseksi ja tuloksen maksimoimiseksi.",
+        "bullets": [
+          "Energiankäytön koko ketjun hallinta tuotannosta käyttäjään vaatii parannuksia tuotannon ja kulutuksen dynamiikan lisääntyessä.",
+          "Energiayhtiöiden täytyy tietää yhä tarkemmin, kuinka paljon energiaa niiden täytyy tuottaa sekä ostaa markkinoilta omien asiakkaidensa käyttöön ja millainen toiminta markkinoilla tuottaa parhaan tuloksen.",
+          "Aikumon palvelu oppii markkinan käyttäytymisen ja tuottaa luotettavat ennusteet"
+        ],
+        "image": "ai-energy.svg"
+      },
+      {
+        "title": "AI-Uptime&trade; - Ennaltaehkäisevään toimintaan ja huoltoon",
+        "description": "Mittaustiedot paljastavat miten komponentti, prosessi tai tehdas tulee käyttäytymään tulevaisuudessa. Aikumon palveluiden avulla voit tietää, mitä seuraavaksi tapahtuu.",
+        "bullets": [
+          "Parannamme tuotannon (jalostuslaitos, voimalaitos, prosessin laite) käytettävyyttä vähentämällä yllättäviä vikoja ja tuotannon pysähdyksiä.",
+          "Auttaa oikeaan ja oikea-aikaiseen ylläpitoon ja huoltotoimenpiteisiin todellisen tarpeen mukaan.",
+          "Aikumon palvelu oppii prosessin käytöksen, tunnistaa komponenttien eliniän ja mallintaa kulumisen ennakoivaa huoltoa varten."
+        ],
+        "image": "ai-uptime.svg"
+      }
+    ]
+  },
+
+  "technology": {
+    "navi": "Teknologia",
+    "title": "Teknologia",
+
+    "intro": "Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS). Käytämme standardeja Web-teknologian rajapintoja, protokollia ja turvaratkaisuja. Tietoja voidaan lukea helposti esimerkiksi automaatiojärjestelmistä, tietokannoista, mittausverkoista sekä kerätä avointa dataa mistä tahansa ulkopuolisesta lähteestä. Palvelumme toimivat pilvessä tai haluttaessa virtuaalikoneena asiakkaan omassa IT-infrassa, samoilla standardirajapinnoilla."
+  },
+
+  "team": {
+    "navi": "Tiimi",
+    "title": "Tiimi",
+
+    "members": [
+      {
+        "name": "Pasi Ojala",
+        "title": "CEO, co-founder",
+        "image": "pasi.png"
+      },
+      {
+        "name": "Kari Rantanen",
+        "title": "Sales and Marketing",
+        "image": "kari.jpg"
+      },
+      {
+        "name": "Okko Räsänen",
+        "title": "Chief Scientist, co-founder",
+        "image": "okko.jpg"
+      },
+      {
+        "name": "Janne Lähteenmäki",
+        "title": "Software Lead",
+        "image": "janne.jpg"
+      }
+    ]
+  },
+
+  "contact": {
+    "navi": "Ota yhteyttä",
+    "title": "OTA MEIHIN YHTEYTTÄ",
+
+    "tagline": "Release the hidden power in your data. Now it's finally easy as 1-2-3!",
+    "email": "Sähköpostiosoitteesi",
+    "message": "Miten voimme olla avuksi?",
+    "submit": "Ota yhteyttä",
+    "copyright": "Copyright &copy; Aikumo 2015"
+  }
+
+}
