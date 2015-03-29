@@ -27,9 +27,9 @@ section#services {
             margin: 30px -20px;
         }
 
-        &.first h3 { color: #F01B64; }
-        &.second h3 { color: #08A93B; }
-        &.third h3 { color: $logoBlue; }
+        &.nth-1 h3 { color: #F01B64; }
+        &.nth-2 h3 { color: #08A93B; }
+        &.nth-3 h3 { color: $logoBlue; }
 
         h3 {
             font-size: 35px;

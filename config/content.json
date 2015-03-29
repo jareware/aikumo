@@ -39,7 +39,32 @@
 
   "services": {
     "navi": "Sovellukset ja&nbsp;palvelut",
-    "title": "Sovellukset ja palvelut"
+    "title": "Sovellukset ja palvelut",
+
+    "intro": "Meillä on kolmella toimialalla jo useita sovelluksia ja palveluita, jotka on verifioitu ja testattu yhdessä asiakkaidemme kanssa. Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS).",
+
+    "sections": [
+      {
+        "title": "AI-Energy&trade; - Energiantuotannon ja energiamarkkinoiden käyttöön",
+        "description": "Kuinka paljon energiaa verkossa kuluu ja miltä koko energiamarkkina samanaikaisesti näyttää? Ennuste kertoo optimaaliset markkinaoperaatiot kulujen minimoimiseksi ja tuloksen maksimoimiseksi.",
+        "bullets": [
+          "Energiankäytön koko ketjun hallinta tuotannosta käyttäjään vaatii parannuksia tuotannon ja kulutuksen dynamiikan lisääntyessä.",
+          "Energiayhtiöiden täytyy tietää yhä tarkemmin, kuinka paljon energiaa niiden täytyy tuottaa sekä ostaa markkinoilta omien asiakkaidensa käyttöön ja millainen toiminta markkinoilla tuottaa parhaan tuloksen.",
+          "Aikumon palvelu oppii markkinan käyttäytymisen ja tuottaa luotettavat ennusteet"
+        ],
+        "image": "ai-energy.svg"
+      },
+      {
+        "title": "AI-Uptime&trade; - Ennaltaehkäisevään toimintaan ja huoltoon",
+        "description": "Mittaustiedot paljastavat miten komponentti, prosessi tai tehdas tulee käyttäytymään tulevaisuudessa. Aikumon palveluiden avulla voit tietää, mitä seuraavaksi tapahtuu.",
+        "bullets": [
+          "Parannamme tuotannon (jalostuslaitos, voimalaitos, prosessin laite) käytettävyyttä vähentämällä yllättäviä vikoja ja tuotannon pysähdyksiä.",
+          "Auttaa oikeaan ja oikea-aikaiseen ylläpitoon ja huoltotoimenpiteisiin todellisen tarpeen mukaan.",
+          "Aikumon palvelu oppii prosessin käytöksen, tunnistaa komponenttien eliniän ja mallintaa kulumisen ennakoivaa huoltoa varten."
+        ],
+        "image": "ai-uptime.svg"
+      }
+    ]
   },
 
   "technology": {

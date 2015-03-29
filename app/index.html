@@ -68,60 +68,20 @@
     <section id="services" class="section">
         <div class="intro-area">
             <h2>{{ services.title }}</h2>
-            <div class="intro">
-                Meillä on kolmella toimialalla jo useita sovelluksia ja palveluita, jotka on verifioitu ja testattu yhdessä
-                asiakkaidemme kanssa. Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a
-                Service, AaaS).
+            <div class="intro">{{ services.intro }}</div>
+        </div>
+        <% services.sections.forEach(function(section, index) { %>
+            <div class="service-section nth-{{ index + 1 }}">
+                <h3>{{ section.title }}</h3>
+                <div>
+                    {{ p(section.description) }}
+                    <ul>{{ li(section.bullets) }}</ul>
+                </div>
+                <% if (section.image) { %>
+                    <img src="images/{{ section.image }}" />
+                <% } %>
             </div>
-        </div>
-        <div class="service-section first">
-            <h3>AI-Energy&trade; - Energiantuotannon ja energiamarkkinoiden käyttöön</h3>
-            <div>
-                <p>
-                    Kuinka paljon energiaa verkossa kuluu ja miltä koko energiamarkkina samanaikaisesti näyttää? Ennuste
-                    kertoo optimaaliset markkinaoperaatiot kulujen minimoimiseksi ja tuloksen maksimoimiseksi.
-                </p>
-                <ul>
-                    <li>Energiankäytön koko ketjun hallinta tuotannosta käyttäjään vaatii parannuksia tuotannon ja
-                        kulutuksen dynamiikan lisääntyessä.
-                    <li>Energiayhtiöiden täytyy tietää yhä tarkemmin, kuinka paljon energiaa niiden täytyy tuottaa sekä
-                        ostaa markkinoilta omien asiakkaidensa käyttöön ja millainen toiminta markkinoilla tuottaa
-                        parhaan tuloksen.
-                    <li>Aikumon palvelu oppii markkinan käyttäytymisen ja tuottaa luotettavat ennusteet
-                </ul>
-            </div>
-            <img src="images/ai-energy.svg" />
-        </div>
-        <div class="service-section second">
-            <h3>AI-Uptime&trade; - Ennaltaehkäisevään toimintaan ja huoltoon</h3>
-            <div>
-                <p>
-                    Mittaustiedot paljastavat miten komponentti, prosessi tai tehdas tulee käyttäytymään tulevaisuudessa.
-                    Aikumon palveluiden avulla voit tietää, mitä seuraavaksi tapahtuu.
-                </p>
-                <ul>
-                    <li>Parannamme tuotannon (jalostuslaitos, voimalaitos, prosessin laite) käytettävyyttä vähentämällä
-                        yllättäviä vikoja ja tuotannon pysähdyksiä.
-                    <li>Auttaa oikeaan ja oikea-aikaiseen ylläpitoon ja huoltotoimenpiteisiin todellisen tarpeen mukaan.
-                    <li>Aikumon palvelu oppii prosessin käytöksen, tunnistaa komponenttien eliniän ja mallintaa
-                        kulumisen ennakoivaa huoltoa varten.
-                </ul>
-            </div>
-            <img src="images/ai-uptime.svg" />
-        </div>
-        <!--
-        <div class="service-section third">
-            <h3>AI-Finance&trade; - Liiketoiminnan seuraamiseen ja ennustamiseen</h3>
-            <p>
-                Miten myynti edistyy? Millaiset ovat erilaisten myynnin toimien ja kamppanjoiden tulokset sekä tehokkuus?
-            </p>
-            <ul>
-                <li>Aikumon tuotteet oppivat myyntiprosessin dynamiikan, markkinoiden käyttymisen sekä
-                    asiakassuhteet.
-                <li>Tee tarkempia liikevaihdon ennusteita ja hanki lisää ymmärrystä myynnin kehittämiseen.
-            </ul>
-        </div>
-        -->
+        <% }) %>
     </section>
 
     <section id="technology" class="section">
