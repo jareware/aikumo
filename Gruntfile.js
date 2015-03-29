@@ -381,7 +381,22 @@ module.exports = function (grunt) {
     var template = require('lodash/string/template');
     var html = grunt.file.read((target === 'dist' ? 'dist' : 'app') + '/index.html');
     var content = grunt.file.readJSON('config/content.json');
-    grunt.file.write((target === 'dist' ? 'dist' : '.tmp') + '/index.html', template(html)(content));
+    var generator = function(tag) {
+      return function self(input) {
+        if (Array.isArray(input)) {
+          return input.map(self).join('');
+        } else {
+          return '<' + tag + '>' + input + '</' + tag + '>';
+        }
+      };
+    };
+    var options = {
+      imports: {
+        p: generator('p'),
+        li: generator('li')
+      }
+    };
+    grunt.file.write((target === 'dist' ? 'dist' : '.tmp') + '/index.html', template(html, options)(content));
   });
 
   grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
