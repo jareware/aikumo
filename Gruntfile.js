@@ -45,6 +45,13 @@ module.exports = function (grunt) {
         files: ['test/spec/{,*/}*.js'],
         tasks: ['test:watch']
       },
+      html: {
+        files: ['<%= config.app %>/index.html', 'config/content.json'],
+        tasks: ['populate-html'],
+        options: {
+          livereload: true
+        }
+      },
       gruntfile: {
         files: ['Gruntfile.js']
       },
@@ -370,6 +377,12 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.registerTask('populate-html', function(target) {
+    var template = require('lodash/string/template');
+    var html = grunt.file.read((target === 'dist' ? 'dist' : 'app') + '/index.html');
+    var content = grunt.file.readJSON('config/content.json');
+    grunt.file.write((target === 'dist' ? 'dist' : '.tmp') + '/index.html', template(html)(content));
+  });
 
   grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
     if (grunt.option('allow-remote')) {
@@ -384,6 +397,7 @@ module.exports = function (grunt) {
       'wiredep',
       'concurrent:server',
       'autoprefixer',
+      'populate-html',
       'connect:livereload',
       'watch'
     ]);
@@ -422,7 +436,8 @@ module.exports = function (grunt) {
     'copy:dist',
     'rev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'populate-html:dist'
   ]);
 
   grunt.registerTask('default', [
