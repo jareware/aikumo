@@ -44,50 +44,23 @@
     <section id="about" class="section">
         <div class="intro-area">
             <h2><%= about.title %></h2>
-            <div class="intro">
-                Maailma on täynnä dataa. Me luomme siihen merkitystä. Meidän liiketoimintamme tarkoitus on parantaa
-                asiakkaidemme liiketoiminnan tehokkuutta. Aikumo analysoi tietoa älykkäillä, itseoppivilla ohjelmistoilla
-                monien teollisuuden ja liiketoiminnan prosessien tehostamiseksi. Ainutlaatuinen analysointiratkaisumme
-                skaalautuu millaisiin tahansa tietomääriin.
-            </div>
+            <div class="intro"><%= about.intro %></div>
         </div>
         <div class="about-sections">
             <section>
                 <i class="fa fa-search"></i>
-                <h3>Lupauksemme</h3>
-                <p>
-                    Jos yrityksenne tietomassoissa on informaatiota, me löydämme sen! Riippumatta siitä, miten
-                    järjestymättömissä muodoissa tiedot ovat ja tiedättekö vielä itse niiden sisältämistä riippuvuuksista.
-                    Piilossa oleva tieto on hyvin usein käännettävissä merkittäviksi liiketoimintaeduiksi tai uusiksi
-                    mahdollisuuksiksi. Tuloksena asiakkaamme saavat tietoa siitä, mitä prosesseissa tapahtuu, mitä niissä tulee
-                    tapahtumaan seuraavaksi ja mikä on paras tapa toimia. Tämä tarkoittaa merkittäviä säästöjä, vähemmän
-                    yllättäviä tuotantokatkoja ja parempaa kannattavuutta.
-                </p>
+                <h3><%= about.promise.title %></h3>
+                <%= p(about.promise.content) %>
             </section>
             <section>
                 <i class="fa fa-line-chart"></i>
-                <h3>Nopeasti ja tehokkaasti</h3>
-                <p>
-                    Meidän liiketoimintamme ydin on asiakkaidemme liiketoimintaprosessien parantaminen ja paremman
-                    tiedon tuottaminen päätösten pohjaksi.
-                </p>
-                <p>
-                    Ratkaisujemme pohjana ovat monien vuosien aikana kehitetyt,
-                    kansainvälisesti patentoidut algoritmit, jotka käyvät älykkäästi läpi kaiken niille syötetyn tiedon ja löytävät
-                    siinä olevat korrelaatiot. Tuotteemme ja palvelumme ovat erittäin vahvasti itseoppivia, mikä mahdollistaa
-                    tavattoman nopean toiminnan ja tulosten saamisen.
-                </p>
+                <h3><%= about.fast.title %></h3>
+                <%= p(about.fast.content) %>
             </section>
             <section>
                 <i class="fa fa-cogs"></i>
-                <h3>Yksi - kaksi - kolme</h3>
-                <ol>
-                    <li>Ensin suoritamme testiajon asiakkaan meille toimittamilla tiedoilla.
-                    <li>Sen jälkeen tutkimme tuloksia yhdessä. Tämä voidaan tehdä seuraavana työpäivänä!
-                    <li>Jos olemme molemmat vakuuttuneita tuloksista ja uuden ratkaisun potentiaalista, sovimme sen
-                        tuotteistamisesta bisneskäyttöön. Sen tekemiseen tarvitsemme yleensä vain viikon tai kaksi, jonka
-                        jälkeen on hyötykäytön aika!
-                </ol>
+                <h3><%= about.onetwothree.title %></h3>
+                <ol><%= li(about.onetwothree.content) %></ol>
             </section>
         </div>
     </section>

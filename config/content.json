@@ -3,13 +3,38 @@
   "home": {
     "navi": "AIKUMO",
     "title": "AIKUMO",
+
     "tagline": "Making Meaning",
     "readMore": "LUE LISÄÄ"
   },
 
   "about": {
     "navi": "Tietoon merkitystä",
-    "title": "Luomme tietoon merkitystä"
+    "title": "Luomme tietoon merkitystä",
+
+    "intro": "Maailma on täynnä dataa. Me luomme siihen merkitystä. Meidän liiketoimintamme tarkoitus on parantaa asiakkaidemme liiketoiminnan tehokkuutta. Aikumo analysoi tietoa älykkäillä, itseoppivilla ohjelmistoilla monien teollisuuden ja liiketoiminnan prosessien tehostamiseksi. Ainutlaatuinen analysointiratkaisumme skaalautuu millaisiin tahansa tietomääriin.",
+
+    "promise": {
+      "title": "Lupauksemme",
+      "content": "Jos yrityksenne tietomassoissa on informaatiota, me löydämme sen! Riippumatta siitä, miten järjestymättömissä muodoissa tiedot ovat ja tiedättekö vielä itse niiden sisältämistä riippuvuuksista. Piilossa oleva tieto on hyvin usein käännettävissä merkittäviksi liiketoimintaeduiksi tai uusiksi mahdollisuuksiksi. Tuloksena asiakkaamme saavat tietoa siitä, mitä prosesseissa tapahtuu, mitä niissä tulee tapahtumaan seuraavaksi ja mikä on paras tapa toimia. Tämä tarkoittaa merkittäviä säästöjä, vähemmän yllättäviä tuotantokatkoja ja parempaa kannattavuutta."
+    },
+
+    "fast": {
+      "title": "Nopeasti ja tehokkaasti",
+      "content": [
+        "Meidän liiketoimintamme ydin on asiakkaidemme liiketoimintaprosessien parantaminen ja paremman tiedon tuottaminen päätösten pohjaksi.",
+        "Ratkaisujemme pohjana ovat monien vuosien aikana kehitetyt, kansainvälisesti patentoidut algoritmit, jotka käyvät älykkäästi läpi kaiken niille syötetyn tiedon ja löytävät siinä olevat korrelaatiot. Tuotteemme ja palvelumme ovat erittäin vahvasti itseoppivia, mikä mahdollistaa tavattoman nopean toiminnan ja tulosten saamisen."
+      ]
+    },
+
+    "onetwothree": {
+      "title": "Yksi - kaksi - kolme",
+      "content": [
+        "Ensin suoritamme testiajon asiakkaan meille toimittamilla tiedoilla.",
+        "Sen jälkeen tutkimme tuloksia yhdessä. Tämä voidaan tehdä seuraavana työpäivänä!",
+        "Jos olemme molemmat vakuuttuneita tuloksista ja uuden ratkaisun potentiaalista, sovimme sen tuotteistamisesta bisneskäyttöön. Sen tekemiseen tarvitsemme yleensä vain viikon tai kaksi, jonka jälkeen on hyötykäytön aika!"
+      ]
+    }
   },
 
   "services": {
