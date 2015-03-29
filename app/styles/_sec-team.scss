@@ -36,6 +36,7 @@ section#team {
                 @extend %shadow;
                 background-repeat: no-repeat;
                 background-position: center center;
+                background-size: cover;
                 width: $dimension;
                 height: $dimension;
                 border-radius: $dimension;
