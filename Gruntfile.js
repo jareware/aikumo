@@ -377,10 +377,10 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('populate-html', function(target) {
+  function writeTemplatedHtml(jsonSource, htmlSource, htmlDest) {
     var template = require('lodash/string/template');
-    var html = grunt.file.read((target === 'dist' ? 'dist' : 'app') + '/index.html');
-    var content = grunt.file.readJSON('config/content.json');
+    var html = grunt.file.read(htmlSource);
+    var content = grunt.file.readJSON(jsonSource);
     var generator = function(tag) {
       return function self(input) {
         if (Array.isArray(input)) {
@@ -397,7 +397,15 @@ module.exports = function (grunt) {
         li: generator('li')
       }
     };
-    grunt.file.write((target === 'dist' ? 'dist' : '.tmp') + '/index.html', template(html, options)(content));
+    grunt.file.write(htmlDest, template(html, options)(content));
+  }
+
+  grunt.registerTask('populate-html', function(target) {
+    if (target === 'dist') {
+      writeTemplatedHtml('config/content.json', 'dist/index.html', 'dist/index.html');
+    } else { // dev
+      writeTemplatedHtml('config/content.json', 'app/index.html', '.tmp/index.html');
+    }
   });
 
   grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
