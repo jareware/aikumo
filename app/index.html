@@ -28,7 +28,12 @@
             <a data-scroll href="#technology">{{ technology.navi }}</a>
             <a data-scroll href="#team">{{ team.navi }}</a>
             <a data-scroll href="#contact">{{ contact.navi }}</a>
+            <span class="language-selection {{ language }}">
+                <a href="en.html">En</a>
+                <a href="fi.html">Fi</a>
+            </span>
         </nav>
+
     </header>
 
     <section id="home">
@@ -108,13 +113,13 @@
     <footer id="contact" >
         <div class="contact">{{ contact.title }}</div>
         <div class="release">{{ contact.tagline }}</div>
-        <form>
-            <div>
-                <input type="email" placeholder="{{ contact.email }}" />
-                <textarea type="email" rows="7" placeholder="{{ contact.message }}"></textarea>
-            </div>
-            <button type="submit">{{ contact.submit }}</button>
-        </form>
+        <!--<form>-->
+            <!--<div>-->
+                <!--<input type="email" placeholder="{{ contact.email }}" />-->
+                <!--<textarea type="email" rows="7" placeholder="{{ contact.message }}"></textarea>-->
+            <!--</div>-->
+            <!--<button type="submit">{{ contact.submit }}</button>-->
+        <!--</form>-->
         <div class="copyright">{{ contact.copyright }}</div>
     </footer>
 
