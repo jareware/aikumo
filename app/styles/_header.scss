@@ -38,14 +38,14 @@ header {
             &.en {
                 a:first-child {
                     color: lighten($logoBlue, 5%);
-                    font-weight: bold;
+                    font-weight: normal;
                 }
             }
 
             &.fi {
                 a:last-child {
                     color: lighten($logoBlue, 5%);
-                    font-weight: bold;
+                    font-weight: normal;
                 }
             }
 
