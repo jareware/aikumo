@@ -1,4 +1,4 @@
-{
+﻿{
 
   "language": "en",
 
@@ -11,58 +11,59 @@
   },
 
   "about": {
-    "navi": "Tietoon merkitystä",
-    "title": "Luomme tietoon merkitystä",
+    "navi": "Making meaning",
+    "title": "Making meaning",
 
-    "intro": "Maailma on täynnä dataa. Me luomme siihen merkitystä. Meidän liiketoimintamme tarkoitus on parantaa asiakkaidemme liiketoiminnan tehokkuutta. Aikumo analysoi tietoa älykkäillä, itseoppivilla ohjelmistoilla monien teollisuuden ja liiketoiminnan prosessien tehostamiseksi. Ainutlaatuinen analysointiratkaisumme skaalautuu millaisiin tahansa tietomääriin.",
+    "intro": "World is full of data. We make meaning of it. Our purpose is to improve the efficiency of our customers’ businesses. Aikumo provides data analytics services based on intelligent machine learning solutions to optimize various industry and business processes. We call it Analytics as a Service (AaaS).",
 
     "promise": {
-      "title": "Lupauksemme",
-      "content": "Jos yrityksenne tietomassoissa on informaatiota, me löydämme sen! Riippumatta siitä, miten järjestymättömissä muodoissa tiedot ovat ja tiedättekö vielä itse niiden sisältämistä riippuvuuksista. Piilossa oleva tieto on hyvin usein käännettävissä merkittäviksi liiketoimintaeduiksi tai uusiksi mahdollisuuksiksi. Tuloksena asiakkaamme saavat tietoa siitä, mitä prosesseissa tapahtuu, mitä niissä tulee tapahtumaan seuraavaksi ja mikä on paras tapa toimia. Tämä tarkoittaa merkittäviä säästöjä, vähemmän yllättäviä tuotantokatkoja ja parempaa kannattavuutta."
+      "title": "Our promise",
+      "content": "The core of our business is to add value to our customers operations and decision making. We turn the hidden information in your data into a great business value. As a result we enable you to better know what is going on, what would be the optimal mode of operation and what is going to happen in your process. It means significant cost savings, less uncontrolled breaks in production and improved profitability. "
     },
 
     "fast": {
-      "title": "Nopeasti ja tehokkaasti",
+      "title": "Lean and efficient",
       "content": [
-        "Meidän liiketoimintamme ydin on asiakkaidemme liiketoimintaprosessien parantaminen ja paremman tiedon tuottaminen päätösten pohjaksi.",
-        "Ratkaisujemme pohjana ovat monien vuosien aikana kehitetyt, kansainvälisesti patentoidut algoritmit, jotka käyvät älykkäästi läpi kaiken niille syötetyn tiedon ja löytävät siinä olevat korrelaatiot. Tuotteemme ja palvelumme ovat erittäin vahvasti itseoppivia, mikä mahdollistaa tavattoman nopean toiminnan ja tulosten saamisen."
+        "We offer standard web technologies based interfaces for collecting your data from automation systems, databases and sensor networks as well open data from external sources.",
+        "Our solutions are based on internationally patented algorithms developed over several years. Our algorithms have built-in intelligence that works through the data sets and finds hiding correlations in them.",
+        "Our services and applications are self-learning to a great extent. This enables us to work incredibly fast and efficiently compared to any competition."
       ]
     },
 
     "onetwothree": {
-      "title": "Yksi - kaksi - kolme",
+      "title": "One - two - three",
       "content": [
-        "Ensin suoritamme testiajon asiakkaan meille toimittamilla tiedoilla.",
-        "Sen jälkeen tutkimme tuloksia yhdessä. Tämä voidaan tehdä seuraavana työpäivänä!",
-        "Jos olemme molemmat vakuuttuneita tuloksista ja uuden ratkaisun potentiaalista, sovimme sen tuotteistamisesta bisneskäyttöön. Sen tekemiseen tarvitsemme yleensä vain viikon tai kaksi, jonka jälkeen on hyötykäytön aika!"
+        "We first do a verification run with the data sets provided by our customer.",
+        "We look at the results together. This can be done the next business day!",
+        "When our customer is convinced on the potential of the solution, the implementation usually takes just a week or two. Then it’s time for optimal production! Sounds incredible, right? It is."
       ]
     }
   },
 
   "services": {
-    "navi": "Sovellukset ja&nbsp;palvelut",
-    "title": "Sovellukset ja palvelut",
+    "navi": "Services",
+    "title": "Sevices",
 
-    "intro": "Meillä on kolmella toimialalla jo useita sovelluksia ja palveluita, jotka on verifioitu ja testattu yhdessä asiakkaidemme kanssa. Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS).",
+    "intro": "We have a number of services that we have verified and tested together with our customers in different business and application fields.",
 
     "sections": [
       {
-        "title": "AI-Energy&trade; - Energiantuotannon ja energiamarkkinoiden käyttöön",
-        "description": "Kuinka paljon energiaa verkossa kuluu ja miltä koko energiamarkkina samanaikaisesti näyttää? Ennuste kertoo optimaaliset markkinaoperaatiot kulujen minimoimiseksi ja tuloksen maksimoimiseksi.",
+        "title": "AI-Energy&trade; - for Energy markets ",
+        "description": "What is the energy consumption in your power grid? How does the market look? The prediction results reveal the optimal operation to minimize costs and maximize revenue.",
         "bullets": [
-          "Energiankäytön koko ketjun hallinta tuotannosta käyttäjään vaatii parannuksia tuotannon ja kulutuksen dynamiikan lisääntyessä.",
-          "Energiayhtiöiden täytyy tietää yhä tarkemmin, kuinka paljon energiaa niiden täytyy tuottaa sekä ostaa markkinoilta omien asiakkaidensa käyttöön ja millainen toiminta markkinoilla tuottaa parhaan tuloksen.",
-          "Aikumon palvelu oppii markkinan käyttäytymisen ja tuottaa luotettavat ennusteet"
+          "The control of the whole energy chain, from production to end-user, requires improvements when production and consumption flexibility is increasing.",
+          "Customers want to know accurately how much energy they need to produce and buy from the markets for their own customers and how to operate in the market.",
+          "Our product learns market dynamics and combines all relevant information for the prediction engine."
         ],
         "image": "ai-energy.svg"
       },
       {
-        "title": "AI-Uptime&trade; - Ennaltaehkäisevään toimintaan ja huoltoon",
-        "description": "Mittaustiedot paljastavat miten komponentti, prosessi tai tehdas tulee käyttäytymään tulevaisuudessa. Aikumon palveluiden avulla voit tietää, mitä seuraavaksi tapahtuu.",
+        "title": "AI-Uptime&trade; - for Predictive operations",
+        "description": "Data reveals how the component, process or plant is going to operate. With our service, you know what happens next.",
         "bullets": [
-          "Parannamme tuotannon (jalostuslaitos, voimalaitos, prosessin laite) käytettävyyttä vähentämällä yllättäviä vikoja ja tuotannon pysähdyksiä.",
-          "Auttaa oikeaan ja oikea-aikaiseen ylläpitoon ja huoltotoimenpiteisiin todellisen tarpeen mukaan.",
-          "Aikumon palvelu oppii prosessin käytöksen, tunnistaa komponenttien eliniän ja mallintaa kulumisen ennakoivaa huoltoa varten."
+          "Increased machine (refinery, power plant, process equipment) uptime is achieved by avoiding sudden failures and minimizing downtime.",
+          "Customers need optimized maintenance and service activities based on true demand.",
+          "Our product learns process behavior, component life cycle and models the component wear and tear for the predictive maintenance engine."
         ],
         "image": "ai-uptime.svg"
       }
@@ -70,15 +71,15 @@
   },
 
   "technology": {
-    "navi": "Teknologia",
-    "title": "Teknologia",
+    "navi": "Technology",
+    "title": "Technology",
 
-    "intro": "Aikumon data-analytiikka toimii palveluina pilviarkkitehtuurissa (Analytics as a Service, AaaS). Käytämme standardeja Web-teknologian rajapintoja, protokollia ja turvaratkaisuja. Tietoja voidaan lukea helposti esimerkiksi automaatiojärjestelmistä, tietokannoista, mittausverkoista sekä kerätä avointa dataa mistä tahansa ulkopuolisesta lähteestä. Palvelumme toimivat pilvessä tai haluttaessa virtuaalikoneena asiakkaan omassa IT-infrassa, samoilla standardirajapinnoilla."
+    "intro": "Our data analytics solutions are available with standard web technologies based interfaces, protocols and data security. We offer it as cloud based service or tailored application for customer’s own infrastructure and interfaces."
   },
 
   "team": {
-    "navi": "Tiimi",
-    "title": "Tiimi",
+    "navi": "Team",
+    "title": "Team",
 
     "members": [
       {
@@ -106,17 +107,18 @@
         "title": "Advisor",
         "image": "toni.jpg"
       }
+
     ]
   },
 
   "contact": {
-    "navi": "Ota yhteyttä",
-    "title": "OTA MEIHIN YHTEYTTÄ",
+    "navi": "Contact Us",
+    "title": "Contact Us",
 
     "tagline": "Release the hidden power in your data. Now it's finally easy as 1-2-3!",
-    "email": "Sähköpostiosoitteesi",
-    "message": "Miten voimme olla avuksi?",
-    "submit": "Ota yhteyttä",
+    "email": "Your email address",
+    "message": "Please enter your message",
+    "submit": "Contact",
     "copyright": "Copyright &copy; Aikumo 2015"
   }
 
