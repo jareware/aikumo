@@ -1,6 +1,8 @@
 section#team {
     background: rgb(239, 239, 237);
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 
     h2 {
         @include standard-centered-section();
@@ -9,6 +11,7 @@ section#team {
 
     ul {
         @include standard-centered-section();
+        max-width: 1150px;
         padding: 0;
         overflow: hidden;
         margin-top: 50px;
@@ -16,13 +19,31 @@ section#team {
          li {
             text-align: center;
             float: left;
-            width: 25%;
+            width: 20%;
             height: 200px;
             margin-top: 70px;
+
+             @media (max-width: 1300px) and (min-width: 1024px) {
+
+                 &:nth-child(1),
+                 &:nth-child(2),
+                 &:nth-child(3) {
+                    width: 33%;
+                 }
+
+                 &:nth-child(4),
+                 &:nth-child(5) {
+                     width: 50%;
+                 }
+             }
 
              @include viewports(up-to fluid) {
                  width: 50%;
                  margin-top: 70px;
+
+                 &:last-child {
+                     width: 100%;
+                 }
              }
 
              @include viewports(up-to stacked) {
