@@ -411,7 +411,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default-html', function(target) {
     if (target === 'dist') {
-      grunt.file.copy('dist/fi.html', 'dist/index.html');
+      grunt.file.copy('dist/en.html', 'dist/index.html');
     }
   });
 
