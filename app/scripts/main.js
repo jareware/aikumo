@@ -15,10 +15,11 @@ smoothScroll.init({
 });
 
 window.addEventListener('scroll', function() {
-    if (document.body.scrollTop > 20) {
-        document.querySelector('body').classList.add('minified-header');
+    var scrollTop = document.documentElement ? document.documentElement.scrollTop : document.body.scrollTop;
+    if (scrollTop > 20) {
+        document.body.className = 'minified-header';
     }
     else {
-        document.querySelector('body').classList.remove('minified-header');
+        document.body.className = '';
     }
 });
