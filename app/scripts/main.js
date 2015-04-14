@@ -15,7 +15,7 @@ smoothScroll.init({
 });
 
 window.addEventListener('scroll', function() {
-    var scrollTop = document.documentElement ? document.documentElement.scrollTop : document.body.scrollTop;
+    var scrollTop = Math.max(document.documentElement && document.documentElement.scrollTop || 0, document.body.scrollTop || 0);
     if (scrollTop > 20) {
         document.body.className = 'minified-header';
     }
